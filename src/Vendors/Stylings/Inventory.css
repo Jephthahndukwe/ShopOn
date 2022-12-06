@@ -433,3 +433,86 @@ nav .bells {
     line-height: 19px;
     color: #FFFFFF;
 }
+
+/* INVENTORY SECTION ENDS */
+
+
+/* INVENTORYADD SECTION STARTS */
+.newInventory {
+    background-color: #F4F5FA;
+}
+.newInvent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.5%;
+    margin-top: 2%;
+}
+.newInvent .new {
+    margin-right: 3%;
+    overflow: hidden;
+}
+.newInvent .new select {
+    padding: 5px 10px;
+    width: 171px;
+    height: 36px;
+    background: #1D1F1F;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.newInvent .new a {
+    margin-left: 20px;
+    padding: 8px 30px;
+    background: #DE5212;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.addInventory {
+    margin-top: 10%;
+}
+.add-box1 {
+    width: 410px;
+    height: 813px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    margin-left: 2%;
+    /* background: #FFFFFF;
+    width: 80%;
+    height: 70%;
+    margin-left: 1.5%; */
+}
+.imgInventory {
+    width: 372px;
+    height: 302px;
+    background: #F4F5FA;
+    border: 1px solid #E1E2E9;
+    border-radius: 12px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 4.5%;
+    margin-top: 5%;
+}
+.addInventory .img-icon {
+    position: absolute;
+    left: 20%;
+    top: 57%;
+    font-size: 37px;
+    color: #DE5212;
+}

@@ -1,7 +1,8 @@
 import React from 'react'
 import '../Stylings/Inventory.css'
-import { FaBell, FaHome } from 'react-icons/fa'
+import { FaBell, FaHome, FaImage } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import img from '../Inventory/img/Image.png'
 
 const InventoryAdd = () => {
   return (
@@ -23,6 +24,28 @@ const InventoryAdd = () => {
                 <Link to='/'><p><FaHome className='home'/></p></Link>
                 <p>/</p>
                 <p>Inventory</p>
+            </div>
+        </div>
+        <div className='newInventory'>
+            <div className='newInvent'>
+            <h3>New Inventory Item</h3>
+            <div className='new'>
+                <select>
+                    <option>Save as Draft</option>
+                    <option>other</option>
+                    <option>other</option>
+                    <option>other</option>
+                </select>
+               <a href=''>Save & Publish</a>
+               </div>
+            </div>
+
+            <div className='addInventory'>
+                <div className='add-box1'>
+                    <div className='imgInventory'>
+                        <img src={img} className='img-icon'/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Stylings/Inventory.css'
+import { Link } from 'react-router-dom'
 import {  FaChevronDown, FaSearch, FaFilter, FaCalendarAlt, FaLocationArrow, FaPlus } from 'react-icons/fa'
 
 const Inventory1 = () => {
@@ -25,7 +26,7 @@ const Inventory1 = () => {
                 <div className='Noproduct'>
                   <h3>No Product Added Yet</h3>
                   <p>Add products to your store and start selling <br/> to see your products here.</p>
-                  <a href=''><FaPlus className='plus'/> Add Product</a>
+                  <Link to='/InventoryAdd'><FaPlus className='plus'/> Add Product</Link>
                 </div>
             </div>
     </div>
