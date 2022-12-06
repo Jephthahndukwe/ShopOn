@@ -1,5 +1,5 @@
 import React from 'react'
-import '../dashboard/Dashboard.css'
+import '../Stylings/Dashboard.css'
 import {RiMenuFoldLine} from 'react-icons/ri'
 import {RiDashboardFill} from 'react-icons/ri'
 import {IoMdContacts} from 'react-icons/io'
