@@ -153,6 +153,11 @@ span{
     margin: 2px 0px 9px 0px;
     margin-left: -1.8rem;
 }
+.inventory-icon a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
 .inventory{
     font-size: 25px;  
     color: #5D5F5F;

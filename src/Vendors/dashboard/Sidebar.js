@@ -8,6 +8,7 @@ import {TbMessageCircle} from 'react-icons/tb'
 import {TbCurrencyDollar} from 'react-icons/tb'
 import {FiSettings} from 'react-icons/fi'
 import {MdOutlineShoppingBag} from 'react-icons/md'
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -30,7 +31,7 @@ const Sidebar = () => {
                     <IoMdContacts className='customer'/><span>Customers</span>
                 </div>
                 <div className='inventory-icon'>
-                    <MdOutlineInventory2 className='inventory'/><span>Inventory</span>
+                   <Link to='/InventoryNav'><MdOutlineInventory2 className='inventory'/><span>Inventory</span></Link>
                 </div>
                 <div className='conversation-icon'>
                     <TbMessageCircle className='conversation'/><span>Conversations</span>
