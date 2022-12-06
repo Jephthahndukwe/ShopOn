@@ -5,6 +5,11 @@ import { Link } from 'react-router-dom'
 import img from '../Inventory/img/Image.png'
 
 const InventoryAdd = () => {
+    const onSelectFile = (event) => {
+        const selectedFiles = event.target.files;
+        console.log(selectedFiles);
+    } 
+
   return (
     <div className='body'>
         <div className='header'>
@@ -44,8 +49,10 @@ const InventoryAdd = () => {
                 <div className='add-box1'>
                     <div className='imgInventory'>
                         <img src={img} className='img-icon'/>
-                        <label>
+                        <label className='label'>
                             <FaCloudUploadAlt className='upload-icon'/>
+                            <span>Upload Image</span>
+                            <input type='file' name='images' onChange={onSelectFile} />
                         </label>
                     </div>
                 </div>

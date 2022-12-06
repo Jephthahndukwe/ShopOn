@@ -516,3 +516,12 @@ nav .bells {
     font-size: 37px;
     color: #DE5212;
 }
+
+.imgInventory label {
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 7%;
+}
+.imgInventory input {
+    display: none;
+}
