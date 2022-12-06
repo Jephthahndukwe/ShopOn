@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    text-decoration: none;
 }
 
 .body {
@@ -73,11 +74,12 @@ nav .bells {
    display: flex;
    justify-content: space-between;
 }
-.inventory-nav p {
+.inventory-nav p{
+    position: absolute;
     display: flex;
     align-items: center;
-    margin-top: 2%;
-    margin-right: 2%;
+    margin-top: 1%;
+    margin-left: -16%;
     background: #DE5212;
     border-radius: 12px;
     padding: 8px 16px;
@@ -94,7 +96,7 @@ nav .bells {
     margin-right: 5%;
 }
 .inventory-nav h3 {
-    margin-top: 36.5px;
+    margin-top: 30px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
