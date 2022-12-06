@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Stylings/Inventory.css'
-import { FaBell, FaHome, FaImage } from 'react-icons/fa'
+import { FaBell, FaHome, FaCloudUploadAlt } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import img from '../Inventory/img/Image.png'
 
@@ -44,6 +44,9 @@ const InventoryAdd = () => {
                 <div className='add-box1'>
                     <div className='imgInventory'>
                         <img src={img} className='img-icon'/>
+                        <label>
+                            <FaCloudUploadAlt className='upload-icon'/>
+                        </label>
                     </div>
                 </div>
             </div>
