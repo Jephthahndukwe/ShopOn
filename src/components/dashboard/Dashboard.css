@@ -1,0 +1,202 @@
+/* Top Nav Css */
+
+.topnav-container{
+    width: 940px;
+    height: 60px;
+    margin-left: 299px;
+    padding-top: 20px;
+    display: inline-block;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dashboard{
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+    width: 200pxq;
+}
+.home-icon{
+    padding-top: 10px;
+    color: #E9672B;
+    font-size: 19px;
+    font-weight: 400;
+}
+.select{
+    height: 32px;
+    width: 140px;
+    padding: 0px 12px 0px 10px;
+    outline: none;
+    background-color: #fef5ea;
+    border-radius: 5px;
+    border: none;
+}
+.bell{
+    color: #E9672B;
+    font-size: 20px;
+    font-weight: 400;
+}
+.profile-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+}
+.img{
+    width: 100%;
+}
+
+/* Sidebar Css */
+
+.sidebar-container{
+    width: 270px;
+    height: 100vh;
+    position: fixed;
+    /* background-color: grey; */
+    z-index: 99;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Roboto';
+    color: #E9672B;
+}
+.menu-icon{
+    font-size: 19px;
+    padding: 12px 0px 2px 0px;
+    color: #5D5F5F;
+    font-weight: 400;
+}
+.dashboard-icon{
+    background-color: #E9672B;
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    color: white;
+    margin: 12px 0px 9px 0px;
+}
+.dash{
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'poppins';
+}
+.dashfill{
+    font-size: 25px;
+}
+span{
+    margin-left: 16px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'poppins';
+    color: #5D5F5F;
+}
+
+.order-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 9px 0px 3px 0px;
+    margin-left: -3rem;
+}
+.order{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.customer-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -1.8rem;
+}
+.customer{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.inventory-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -1.8rem;
+}
+.inventory{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.conversation-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -0.5rem;
+}
+.conversation{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.withdraw-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -2.2rem;
+}
+.withdraw{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+.settings-icon{
+    width: 199px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9px;
+    margin: 2px 0px 9px 0px;
+    margin-left: -2.7rem;
+}
+.settings{
+    font-size: 25px;  
+    color: #5D5F5F;
+}
+
+

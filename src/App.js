@@ -1,11 +1,13 @@
 import './App.css';
+import Topnav from './components/dashboard/Topnav';
 import InventoryNav from './Vendors/Inventory/InventoryNav'
 
 function App() {
   return (
-    <div className="App">
-      <InventoryNav/>
-    </div>
+    <>
+      <Topnav/>
+      {/* <InventoryNav/> */}
+    </>
   );
 }
 
