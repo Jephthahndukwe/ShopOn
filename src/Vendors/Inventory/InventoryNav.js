@@ -1,15 +1,9 @@
 import React, { useState } from 'react'
 import '../Stylings/Inventory.css'
-import { FaChevronDown,
-        FaBell,
-        FaHome,
-        FaPlus,
-        FaFolderMinus,
-        FaSearch,
-        FaFilter,
-        FaCalendarAlt,
-        FaLocationArrow } from 'react-icons/fa'
+import { FaChevronDown, FaBell, FaHome, FaPlus, FaFolderMinus } from 'react-icons/fa'
 import icon from '../Inventory/img/icon.png'
+import Inventory1 from './Inventory1'
+import { Link } from 'react-router-dom'
 
 const InventoryNav = () => {
 const [vendor, setVendor] = useState("")
@@ -22,20 +16,25 @@ const [stock, setStock] = useState("₦922,901,000.00")
         <div className='header'>
           <nav>
                 <h1>Inventory</h1>
-                    <p>TEE Gadgets 
-                    <FaChevronDown className='arrow'/>
-                    </p>
-                    <FaBell className='bell'/>
+                <select className='select'>
+                        <option>TEE Gadgets</option>
+                        <option>Others</option>
+                        <option>Others</option>
+                        <option>Others</option>
+                        <option>Others</option>
+                        <option>Others</option>
+                    </select>
+                    <FaBell className='bells'/>
             </nav>
                 <div className='head'>
-                    <p><FaHome className='home'/></p> 
+                    <Link to='/'><p><FaHome className='home'/></p></Link>
                     <p>/</p>
                     <p>Inventory</p>
                 </div>
         <div className='inventory'>
             <div className='inventory-nav'>
             <h3>Inventory Summary</h3>
-            <p><FaPlus className='plus'/> Add a New Product</p>
+            <Link to='/InventoryAdd'><p><FaPlus className='plus'/> Add a New Product</p></Link>
             </div>
             <div className='invent'>
                 <div className='invent-box'>
@@ -60,7 +59,12 @@ const [stock, setStock] = useState("₦922,901,000.00")
                 </div>
                 <div className='Alert'>
                     <img src={icon} className='icon' />
-                    <p className='week'>This Week <FaChevronDown className='arrow'/></p>
+                    <select className='week'>
+                        <option>This Week</option>
+                        <option>Last Week</option>
+                        <option>Yesterday</option>
+                        <option>2 Day Ago</option>
+                    </select>
                     <div className='invent-box3'>
                         <div className='lowStock'>
                             <p className='special'>Low Stock Alert</p>
@@ -77,18 +81,7 @@ const [stock, setStock] = useState("₦922,901,000.00")
                     </div>
                 </div>
             </div>
-            <div className='product-detail'>
-                <div className='product-nav'>
-                    <h3>Inventory Items</h3>
-                    <div className='item'>
-                    <h4><FaSearch className='search'/> <input type='text'  placeholder='Search'/></h4>
-                        <p><FaFilter className='icon'/> Filter</p>
-                        <p><FaCalendarAlt className='icon'/> Filter</p>
-                        <p><FaLocationArrow className='icon'/> Share</p>
-                        <p className='bulk'>Bulk Action <FaChevronDown className='arrow'/></p>
-                   </div>
-                </div>
-            </div>
+           <Inventory1/>
         </div>
         </div>
     </div>

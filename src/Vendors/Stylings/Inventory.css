@@ -27,25 +27,15 @@ nav h1 {
     font-size: 20px;
     line-height: 30px;
 }
-nav p {
-    margin-right: -70%;
-}
-
-nav p {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
-    color: #1D1F1F;
-}
-nav p {
-    background-color: #FEF5EA;
-    width: 150px;
+nav .select{
     height: 32px;
-    text-align: center;
-    padding: 6px 12px;
-    border-radius: 8px;
+    width: 140px;
+    padding: 0px 12px 0px 10px;
+    outline: none;
+    background-color: #fef5ea;
+    border-radius: 5px;
+    border: none;
+    margin-right: -70%;
 }
 nav .arrow {
     position: absolute;
@@ -53,8 +43,9 @@ nav .arrow {
     margin-top: 3px;
     margin-left: 8px;
 }
-nav .bell {
+nav .bells {
     margin-right: 5%;
+    color: #DE5212;
 }
 .head {
     margin-left: -5px;
@@ -244,6 +235,8 @@ nav .bell {
     font-size: 12px;
     line-height: 15px;
     color: #B6B8B8;
+    border: none;
+    outline: none;
 }
 .Alert .arrow {
     margin-top: 3.8px;
@@ -289,7 +282,7 @@ nav .bell {
     margin-top: 2%;
     margin-left: 2%;
     width: 1220px;
-    height: 300px;
+    height: 600px;
     background: #FFFFFF;
     border-radius: 12px;
     flex: none;
@@ -323,6 +316,7 @@ nav .bell {
 }
 .item .search {
     color: #130F26;
+    font-size: 17px;
 }
 .product-nav input {
     width: 100%;
@@ -358,7 +352,7 @@ nav .bell {
     border: 1px solid #5D5F5F;
     border-radius: 4px;
     overflow: hidden;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
@@ -367,19 +361,73 @@ nav .bell {
     align-items: center;
     text-align: center;
     color: #5D5F5F;
+    cursor: pointer;
 }
 .item .icon {
     font-size: 14px;
     margin-right: 6px;
 }
-.item .arrow {
-    margin-left: 6%;
-    margin-top: 4px;
-}
 .item .bulk {
-    display: flex;
-    align-items: center;
-    padding: 10px;
+    padding: 5px;
     width: 120px;
     height: 35px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 13px;
+    color: #5D5F5F;
+    outline: none;
+    cursor: pointer;
+}
+
+.Noproduct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.Noproduct h3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+.Noproduct p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5D5F5F;
+}
+.Noproduct a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 20px;
+    gap: 10px;
+    background: #E9672B;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
 }
