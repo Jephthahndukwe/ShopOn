@@ -1,12 +1,12 @@
 import './App.css';
-import Topnav from './components/dashboard/Topnav';
+import Topnav from './Vendors/dashboard/Topnav';
 import InventoryNav from './Vendors/Inventory/InventoryNav'
 
 function App() {
   return (
     <>
-      <Topnav/>
-      {/* <InventoryNav/> */}
+      {/* <Topnav/> */}
+      <InventoryNav/>
     </>
   );
 }

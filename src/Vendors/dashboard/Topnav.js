@@ -3,7 +3,7 @@ import '../dashboard/Dashboard.css'
 import {HiBell} from 'react-icons/hi'
 import {MdImage} from 'react-icons/md'
 import {AiOutlineHome} from 'react-icons/ai'
-import Sidebar from './Sidebar'
+import Sidebar from '../dashboard/Sidebar'
 
 const Topnav = () => {
   return (
