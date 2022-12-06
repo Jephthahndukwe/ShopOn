@@ -112,6 +112,9 @@ nav .bell {
     color: #45464E;
     margin-left: 1.5%;
 }
+.stock {
+    margin-left: -2%;
+}
 .invent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -185,10 +188,12 @@ nav .bell {
 }
 .invent2-box .span {
     margin-left: 3%;
+    overflow: hidden;
 }
 .invent2-box h5 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
+    text-align: start;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
@@ -196,6 +201,10 @@ nav .bell {
     align-items: center;
     color: #263437;
     margin-top: 3%;
+}
+.invent2-box .sub {
+    margin-left: 3.5%;
+    font-size: 13px;
 }
 .invent2-box p  {
     position: absolute;
