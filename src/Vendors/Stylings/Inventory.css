@@ -709,11 +709,76 @@ nav .bells {
     margin-left: 35%;
     margin-top: -64.5%;
 }
-.select2 {
+.select2, .select3 {
     -webkit-appearance: none;
 }
-/* .Fplus {
+.quantity {
+    padding: 30px;
+}
+.form input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px 16px;
+    gap: 10px;
+    width: 335px;
+    height: 40px;
+    background: rgba(239, 241, 249, 0.62);
+    border-radius: 8px;
+    margin-top: 3%;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+}
+.form select {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 16px;
+    gap: 10px;
+    width: 335px;
+    height: 40px;
+    background: rgba(239, 241, 249, 0.62);
+    border-radius: 8px;
+    margin-top: 3%;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    color: #5D5F5F;
+}
+.form input:placeholder-shown {
+    color: #5D5F5F;
+}
+.form .select3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 16px;
+    gap: 10px;
+    width: 335px;
+    height: 40px;
+    background: rgba(239, 241, 249, 0.62);
+    margin-top: 3%;
+    border-radius: 8px;
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    color: #5D5F5F;
+}
+.form .inputs {
+    display: flex;
+}
+.form .inputs input {
+    padding: 8px 16px;
+    width: 160px;
+    height: 40px;
+    background: rgba(239, 241, 249, 0.62);
+    border-radius: 8px;
+}
+.Fplus {
     position: absolute;
-    margin-left: -1%;
-    color: #DE5212;
-} */
+    margin-left: 23.5%;
+    margin-top: -2.1%;
+    color: #E9672B;
+}
+

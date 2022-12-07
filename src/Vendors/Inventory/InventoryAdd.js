@@ -10,10 +10,24 @@ const InventoryAdd = () => {
     const [subCategory, setSubCategory] = useState("")
     const [sellingPrice, setSellingPrice] = useState("")
     const [costPrice, setCostPrice] = useState("")
-    const [quantity, setQuantity] = useState(0)
+    const [quantity, setQuantity] = useState()
     const [orderType, setOrderType] = useState("")
     const [variationType, setVariationType] = useState("")
 
+
+    const [post, setPost] = useState([
+        {
+        name: "",
+        stack: "",
+        images: img,
+        id: 1,
+        time: Date.now(),
+        }
+    ])
+
+const [image, setImage] = useState();
+const [newStack, setNewStack] = useState("")
+const [newName, setNewName] = useState("")
 
     const [selectedImages, setSelectedImages] = useState([]);
     const [additionalImages, setAdditionalImages] = useState([])
@@ -37,10 +51,8 @@ const InventoryAdd = () => {
 
         const imagesArray2 = selectedFilesArray2.map((file) => {
             return URL.createObjectURL(file);
-        }
-        );
-        
-        
+        });
+
         setAdditionalImages(imagesArray2);
     };
 
@@ -149,9 +161,38 @@ const InventoryAdd = () => {
                 </div>
                 <div className='add-box2'>
                     <div className='form'>
-                        <input type='text' value={productName} placeholder='Product Name'/><br/>
+                        <input type='text' value={productName} placeholder='Product Name'/>
+                        <label>
                         <select className='select2'>
-                            <option>Product Category</option>
+                            <option>Search Product Category</option>
+                            <option>other</option>
+                            <option>other</option>
+                            <option>other</option>
+                        </select>
+                        <FaPlus className='Fplus'/>
+                        </label>
+                        <label>
+                        <select className='select3'>
+                            <option>Search product sub category</option>
+                            <option>other</option>
+                            <option>other</option>
+                            <option>other</option>
+                        </select>
+                        <FaPlus className='Fplus'/>
+                        </label>
+                        <div className='inputs'>
+                            <input type='text' value={sellingPrice} placeholder='Selling Price'/>
+                            <input type='text' value={costPrice} placeholder='Cost Price'/>
+                        </div>
+                        <input type='number' value={quantity} placeholder='Quantity in Stock' className='quantity'/>
+                        <select>
+                            <option>Order Type</option>
+                            <option>other</option>
+                            <option>other</option>
+                            <option>other</option>
+                        </select>
+                        <select>
+                            <option>variation Type</option>
                             <option>other</option>
                             <option>other</option>
                             <option>other</option>
