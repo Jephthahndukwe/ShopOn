@@ -440,6 +440,7 @@ nav .bells {
 /* INVENTORYADD SECTION STARTS */
 .newInventory {
     background-color: #F4F5FA;
+    overflow: hidden;
 }
 .newInvent {
     display: flex;
@@ -480,7 +481,8 @@ nav .bells {
     color: #FFFFFF;
 }
 .addInventory {
-    margin-top: 10%;
+    margin-top: 5%;
+    overflow: hidden;
 }
 .add-box1 {
     width: 410px;
@@ -491,11 +493,49 @@ nav .bells {
     order: 0;
     align-self: stretch;
     flex-grow: 1;
-    margin-left: 2%;
-    /* background: #FFFFFF;
-    width: 80%;
-    height: 70%;
-    margin-left: 1.5%; */
+    margin-left: 1%;
+    overflow: hidden;
+}
+.uploadedImg {
+    width: 372px;
+    height: 302px;
+    margin-left: 1.4%;
+    border-radius: 12px;
+    margin-top: -22.4%;
+    position: absolute;
+}
+.image .uploading {
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    margin-left: 21%;
+    margin-top: -21%;
+    background: #FFF2E2;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.image .uploading .Upload-icon2 {
+    margin-left: 5px;
+    margin-top: 4px;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+}
+.image .deleting {
+    position: absolute;
+    width: 32px;
+    height: 28px;
+    margin-left: 25%;
+    margin-top: -21%;
+    background: #FFF2E2;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.image .delete-icon {
+    margin-left: 7px;
+    margin-top: 6px;
+    font-size: 16px;
+    cursor: pointer;
 }
 .imgInventory {
     width: 372px;
@@ -511,9 +551,18 @@ nav .bells {
 }
 .addInventory .img-icon {
     position: absolute;
-    left: 20%;
-    top: 57%;
+    left: 21%;
+    top: 47%;
     font-size: 37px;
+    color: #DE5212;
+}
+.imgInventory {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
     color: #DE5212;
 }
 
@@ -521,7 +570,150 @@ nav .bells {
     position: absolute;
     margin-top: 11%;
     margin-left: 7%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.imgInventory span {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #DE5212;
 }
 .imgInventory input {
     display: none;
 }
+.imgInventory p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5D5F5F;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5D5F5F;
+    margin-top: 55%;
+    padding: 4px;
+}
+
+.all-added {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    gap: 3rem;
+}
+.additional h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #45464E;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.addition-upload {
+    width: 172px;
+    height: 167px;
+    background: #F4F5FA;
+    border: 1px solid #E1E2E9;
+    border-radius: 12px;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+.addition-upload .uploading2 {
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 10%;
+    color: #DE5212;
+    cursor: pointer;
+}
+.addition-upload .add-img {
+    margin-top: 23%;
+    margin-left: 35%;
+}
+.addition-upload .uploading2 span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #DE5212;
+}
+.addition-upload input {
+    display: none;
+}
+.additionalImg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 172px;
+    height: 167px;
+    border-radius: 12px;
+    margin-top: 8%;
+}
+
+.imgUploaded input {
+    display: none;
+}
+
+.images2 .uploading3 {
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 22%;
+    width: 32px;
+    height: 32px;
+    background: #FFF2E2;
+    border-radius: 8px;
+}
+.uploading3 .Upload-icon4 {
+    margin-left: 5px;
+    margin-top: 4px;
+    font-size: 21px;
+    cursor: pointer;
+    text-align: center;
+}
+.images2 .deleting2 {
+    position: absolute;
+    margin-top: -40%;
+    margin-left: 33%;
+    width: 32px;
+    height: 32px;
+    background: #FFF2E2;
+    border-radius: 8px;
+}
+.deleting2 .delete-icon2 {
+    margin-left: 7px;
+    margin-top: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.add-box2 {
+    width: 800px;
+    height: 813px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-left: 35%;
+    margin-top: -64.5%;
+}
+.select2 {
+    -webkit-appearance: none;
+}
+/* .Fplus {
+    position: absolute;
+    margin-left: -1%;
+    color: #DE5212;
+} */
