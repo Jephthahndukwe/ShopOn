@@ -25,13 +25,14 @@
 .inner-container{
  background-color: rgb(255,255,255);
  position: absolute;
- top: 79px;
- right: 451px;
+ top: 55px;
+ /* right: 451px; */
  bottom: 80px;
- margin-left: 450px;
+ height: 550px;
+ overflow: hidden;
+ margin-left: 515px;
  border-radius: 15px;
  box-shadow: 3px 3px 10px #5553;
- padding-bottom: 1%;
 }
 
 .no-account{
