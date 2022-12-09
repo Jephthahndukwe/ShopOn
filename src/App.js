@@ -9,13 +9,13 @@ import SignIn from './Vendors/Register-Folder/SignUp';
 function App() {
   return (
     <>
-    <SignUp/>
+    {/* <SignUp/> */}
       <Router>
         <Routes>
           {/* <Route path='/SignUp' element={<SignUp/>} /> */}
-          {/* <Route path='/' element={<Topnav/>} /> */}
-          {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
-          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
+          <Route path='/' element={<Topnav/>} />
+          <Route path="/InventoryNav" element={<InventoryNav/>}/>
+          <Route path='/InventoryAdd' element={<InventoryAdd/>} />
         </Routes>
       </Router>
     </>

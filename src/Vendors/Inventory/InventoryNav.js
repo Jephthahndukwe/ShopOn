@@ -16,7 +16,7 @@ const [stock, setStock] = useState("₦922,901,000.00")
         <div className='header'>
           <nav>
                 <h1>Inventory</h1>
-                <select className='select'>
+                <select className='selects'>
                         <option>TEE Gadgets</option>
                         <option>Others</option>
                         <option>Others</option>
