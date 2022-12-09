@@ -59,7 +59,7 @@ const Landingpage = () => {
                 <div className='sales-amount'>
                   <p className='text'>Sales</p>
                   <div className='value'>
-                    <p>&#x20A6;0.00</p>
+                    <p>&#x20A6; 0.00</p>
                     <p className='percent'>0.00%</p>
                   </div> 
                 </div>
@@ -84,10 +84,7 @@ const Landingpage = () => {
 
               <div className='below'>
                 <div className='custom'>
-                  <div>
-                    <p>Customers</p>
-                  </div>
-                  <div>Active</div>
+                  <div className='values'></div>
                 </div>
               </div>
             </div>

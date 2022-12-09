@@ -3,7 +3,7 @@
     width: 1195px;
     height: 100vh;
     background: #f4f5fa;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 }
 .landingpage-wrapper{
     height: 100%;
@@ -70,7 +70,6 @@
 .wallet{
     width: 280px;
     height: 180px;
-    /* background-color: #7E72F2; */
 }
 .amount{
     margin-top: 30px;
@@ -197,6 +196,15 @@ gap: 83px;
     height: 145px;
     border-radius: 12px;
     background-color: #FFFFFF;
+}
+.below{
+    margin: 50px 8px 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.custom{
+   
 }
 .complete{
     width: 426px;
