@@ -1,9 +1,9 @@
 .landingpage-container{
     margin-left: 88px;
     width: 1195px;
-    height: 100vh;
+    min-height: 100vh;
     background: #f4f5fa;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 }
 .landingpage-wrapper{
     height: 100%;
@@ -72,10 +72,10 @@
     height: 180px;
 }
 .amount{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .figure{
-    margin-top: 15px;
+    margin-top: 10px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -145,9 +145,18 @@ gap: 83px;
 .top-icon{
     width: 20px;
     height: 20px;
-    background-color: grey;
+    background-color: rgba(255, 204, 145, 0.16);
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #5D5F5F;
 }
+.color{
+    background: rgba(85, 112, 241, 0.12) !important;
+    color: #5570F1 !important;
+} 
 .top-select select{
     border: none;
     outline: none;
@@ -199,17 +208,90 @@ gap: 83px;
     background-color: #FFFFFF;
 }
 .below{
-    margin: 50px 8px 0px 8px;
+    margin: 45px 8px 0px 8px;
     display: flex;
     align-items: center;
     gap: 100px;
 }
 .custom{
-   
+    font-size: 14px;
+    font-family: 'inter';
+    color: #5D5F5F;
+}
+.active{
+    font-size: 14px;
+    font-family: 'inter';
+    color: #5D5F5F;
+}
+.active-value{
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+    gap: 9px;
+}
+.values{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 11px;
+}
+.custom-zero{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #45464E;
 }
 .complete{
     width: 426px;
     height: 145px;
     border-radius: 12px;
     background-color: #FFFFFF;
+}
+.complete-bottom{
+    margin: 50px 8px 0px 8px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.orders{
+    font-size: 14px;
+    font-family: 'inter';
+    color: #5D5F5F;
+    display: flex;
+    align-items: center;
+}
+.pending{
+    font-size: 14px;
+    font-family: 'inter';
+    color: #5D5F5F;
+}
+.completed{
+    font-size: 14px;
+    font-family: 'inter';
+    color: #5D5F5F;
+}
+.complete-value{
+    display: flex;
+    align-items: center;
+    margin-top: 11px;
+    gap: 9px;
+}
+.graph{
+    width: 1079px;
+    height: 346px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.0001);
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.client{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.retention{
+    margin: 12px 20px;
 }

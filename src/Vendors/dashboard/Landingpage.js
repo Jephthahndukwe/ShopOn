@@ -2,7 +2,9 @@ import React from 'react'
 import '../Stylings/Landingpage.css'
 import oval from './img/Ovaloval.png'
 import path from './img/Pathpath.png'
-// import card1 from './img/Card 1.png'
+import {HiOutlineShoppingBag} from 'react-icons/hi'
+import {IoMdContacts} from 'react-icons/io'
+import {TbMoonStars} from 'react-icons/tb'
 import card2 from './img/Card 2.png'
 
 const Landingpage = () => {
@@ -46,7 +48,7 @@ const Landingpage = () => {
           <div className='card2'>
             <div className='sales'>
               <div className='top'>
-                <div className='top-icon'></div>
+                <div className='top-icon color'><TbMoonStars/></div>
                 <div className='top-select'>
                   <select>
                     <option>This Week</option>
@@ -60,7 +62,7 @@ const Landingpage = () => {
                   <p className='text'>Sales</p>
                   <div className='value'>
                     <p>&#x20A6; 0.00</p>
-                    <p className='percent'>0.00%</p>
+                    <p className='percent'>+0.00%</p>
                   </div> 
                 </div>
                 <div className='volume'>
@@ -72,7 +74,7 @@ const Landingpage = () => {
 
             <div className='customer'>
             <div className='top'>
-                <div className='top-icon'></div>
+                <div className='top-icon'><IoMdContacts/></div>
                 <div className='top-select'>
                   <select>
                     <option>This Week</option>
@@ -84,14 +86,25 @@ const Landingpage = () => {
 
               <div className='below'>
                 <div className='custom'>
-                  <div className='values'></div>
+                  <p>Customers</p>
+                  <div className='values'>
+                    <p className='custom-zero'>0</p>
+                    <p className='percent'>+0.00%</p>
+                  </div>
+                </div>
+                <div className='active'>
+                  <p>Active</p>
+                  <div className='active-value'>
+                    <p className='custom-zero'>0</p>
+                    <p className='percent'>+0.00%</p>
+                  </div>
                 </div>
               </div>
             </div>
 
             <div className='complete'>
             <div className='top'>
-                <div className='top-icon'></div>
+                <div className='top-icon'><HiOutlineShoppingBag/></div>
                 <div className='top-select'>
                   <select>
                     <option>This Week</option>
@@ -100,13 +113,29 @@ const Landingpage = () => {
                   </select>
                 </div>
               </div>
+
+              <div className='complete-bottom'>
+                <div className='allorder'>
+                  <p className='orders'>All orders</p>
+                  <p className='zero'>0</p>
+                </div>
+                <div className='pending'><p>Pending</p><p className='zero'>0</p></div>
+                <div className='completed'>
+                  <p>Completed</p>
+                  <div className='complete-value'>
+                    <p className='custom-zero'>0</p><p>+0.00%</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
 
 
           <div className='graph'>
-
+              <div className='retention'>
+              <p className='client'>Client Retention</p>
+              </div>
           </div>
         </div>
       </div>
