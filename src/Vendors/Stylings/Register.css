@@ -31,7 +31,7 @@
  height: 550px;
  overflow: hidden;
  margin-left: 515px;
- border-radius: 15px;
+ border-radius: 25px;
  box-shadow: 3px 3px 10px #5553;
 }
 
@@ -66,7 +66,8 @@ margin-top: 30px;
     padding: 10px;
     padding-right: 230px;
     margin-top: 10px;
-    border: 2px solid rgb(78,141,245);
+    border: 2px solid rgb(137,178,248);
+    color: black;
 }
 ::placeholder{
 margin-left: -20%;
@@ -82,7 +83,7 @@ margin-left: -20%;
     padding: 10px;
     padding-right: 230px;
     margin-top: 10px;
-    border: 2px solid rgb(78,141,245);
+    border: 2px solid rgb(137,178,248);
 }
 .forgot{
     font-weight: 400;
@@ -147,8 +148,230 @@ margin-left: -20%;
     padding-bottom: 10px;
     border-radius: 9px;
 }
+/* SIGN UP PAGE  */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.signin{
+    background-color: white;
+}
+.sign-up-as-vendor{
+    margin-top: -3%;
+}
+.color{
+    width: 333px;
+    height: 12px;
+    background-color: rgb(208,213,221);
+    border-radius: 8px;
+    /* margin-top: 5px; */
+}
+.zero{
+    position: absolute;
+    margin-left: 342px;
+    margin-top: -17px;
+}
+.img6{
+    position: absolute;
+    margin-top: 575px;
+    bottom: 18px;
+    margin-left: 88.5%;
+}
+.img8{
+    width: 65%;
+    height: 95vh;
+    margin-left: 0%;
+    padding-bottom: -55%;
+    margin-bottom: 2%;
+}
+.for-signup{
+    padding-bottom: 0%;
+}
+.signin2{
+    background-color: rgb(255,255,255);
+    position: absolute;
+    top: 40px;
+    /* right: 451px; */
+    bottom: 80px;
+    min-height: 550px;
+    margin-left: 454px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px #5553;   
+    
+}
+.email-address{
+ margin-bottom: +5px;
+ padding-left: 13px;
+ padding-right: 180px;
+}
+.for-email-placeholder{
+    margin-top: -20px;
+}
+.doyouwant{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.enter{
+    font-weight:400 ;
+}
+.searching{
+    color:rgb(236,159,151);
+    margin-left: 89px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300px;
+}
+.href a{
+    color: black;
+    text-decoration: none;
+}
+.storepage{
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -2%;
+}
+.href{
+    font-size: 14px;
+    font-weight: 300px;
+    font-style: italic;
+}
+.onvendor{
+    margin-top: 25px;
+}
+.fortee{
+padding-left: 13px;
+padding-right: 180px;
 
-/* :hover .username{
-    border-color: ;
-    transition: 0.5ms;
-} */
+}
+.yourpassword{
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.button2{
+    margin-top: 20px;
+    padding-right: 158px;
+    padding-left: 158px;
+}
+.have-sign{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.orange-sign{
+    margin-left: -13px;
+}
+.https-group{
+    margin-top: 15px;
+}
+.orange-sign a{
+    color:rgb(237,131,83) ;
+}
+/* FOR VENDOR SIGNUP BANNER */
+.twenty-fivepercent{
+    background-color: rgb(61,144,227);
+    height: 12px;
+    width: 83.25px;
+    border-radius: 9px;
+}
+.zero2{
+    font-weight: 500;
+}
+.first-upload{
+background-color: rgb(244,244,245);
+width: 370px;
+height: 128px;
+border-radius: 25px;
+margin-top: 25px;
+}
+.first-upload2{
+    background-color: rgb(244,244,245);
+    width: 370px;
+    height: 128px;
+    border-radius: 25px;
+    margin-top: 25px;
+      
+}
+.vendor-change{
+    margin-left: 150px;
+    margin-top: 65px;
+    font-size: 14px;
+}
+.signupImg {
+    position: absolute;
+   margin-left: -30%;
+   margin-top: -13%;
+}
+.signupImg2 {
+    position: absolute;
+    margin-left: -34%;
+    margin-top: -13%;
+}
+.signImg {
+    font-size: 120px;
+    color: #c5c5c8;
+}
+.for-vendor-signup{
+    margin-top: 30px;
+}
+.vendor-picture{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.store-size{
+    margin-left: 166px;
+    margin-top: 65px;
+    font-size: 14px;   
+}
+.banner {
+    margin-left: -3%;
+    position: absolute;
+}
+.store-banner{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.first-upload-upload2{
+margin-top: -35px;
+}
+.vendor-change input {
+    display: none;
+}
+.signLabel p {
+    margin-top: -2%;
+    cursor: pointer;
+}
+.signUploaded .uploadedsignImg {
+    width: 27.4%;
+    height: 16.4%;
+    position: absolute;
+    margin-top: -18.5%;
+    margin-left: 4.4%;
+    border-radius: 12px;
+}
+.banner input {
+    display: none;
+}
+.signUploaded2 .uploadedsignImg2 {
+    width: 27.4%;
+    height: 16.5%;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -34%;
+    border-radius: 12px;
+}
+
+
+
+/* STATE FORM */
+.fifty-percent{
+    background-color: rgb(61,144,227);
+    height: 12px;
+    width: 166.5px;
+    border-radius: 9px; 
+    font-stretch: normal;
+}
