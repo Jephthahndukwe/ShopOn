@@ -1,12 +1,11 @@
 /* Top Nav Css */
 
 .topnav-container{
-    width: 940px;
-    height: 60px;
-    margin-left: 299px;
+    width: 1195px;
+    height: 80px;
+    margin-left: 88px;
     padding-top: 20px;
     display: inline-block;
-    overflow: hidden;
 }
 .menu{
     display: flex;
@@ -14,22 +13,23 @@
     align-items: center;
 }
 .dashboard{
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Poppins';
-    font-weight: 500;
+    font-weight: 400;
 }
 .profile{
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 24px;
-    width: 200pxq;
+    margin-right: 17px;
 }
 .home-icon{
     padding-top: 10px;
     color: #E9672B;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 400;
+    margin-top: -9px;
 }
 .select{
     height: 32px;
@@ -53,7 +53,7 @@
     align-items: center;
     background-color: grey;
 }
-.img{
+.image{
     width: 100%;
 }
 
@@ -65,6 +65,7 @@
     position: fixed;
     /* background-color: grey; */
     z-index: 99;
+    box-shadow: 0px 0px 3px 1px rgba(217, 217, 217, 217);
 }
 
 .wrapper{
@@ -123,7 +124,7 @@ span{
     justify-content: center;
     border-radius: 9px;
     margin: 9px 0px 3px 0px;
-    margin-left: -3rem;
+    margin-left: -4.2rem;
 }
 .order{
     font-size: 25px;  
@@ -137,7 +138,7 @@ span{
     justify-content: center;
     border-radius: 9px;
     margin: 2px 0px 9px 0px;
-    margin-left: -1.8rem;
+    margin-left: -2rem;
 }
 .customer{
     font-size: 25px;  
@@ -151,7 +152,7 @@ span{
     justify-content: center;
     border-radius: 9px;
     margin: 2px 0px 9px 0px;
-    margin-left: -1.8rem;
+    margin-left: -3rem;
 }
 .inventory-icon a {
     text-decoration: none;
@@ -170,7 +171,7 @@ span{
     justify-content: center;
     border-radius: 9px;
     margin: 2px 0px 9px 0px;
-    margin-left: -0.5rem;
+    margin-left: -0.7rem;
 }
 .conversation{
     font-size: 25px;  
@@ -184,7 +185,7 @@ span{
     justify-content: center;
     border-radius: 9px;
     margin: 2px 0px 9px 0px;
-    margin-left: -2.2rem;
+    margin-left: -3.4rem;
 }
 .withdraw{
     font-size: 25px;  
@@ -198,11 +199,110 @@ span{
     justify-content: center;
     border-radius: 9px;
     margin: 2px 0px 9px 0px;
-    margin-left: -2.7rem;
+    margin-left: -3.9rem;
 }
 .settings{
     font-size: 25px;  
     color: #5D5F5F;
+}
+
+.footer{
+    margin-left: 45px;
+    margin-top: 8rem;
+    width: 210px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logout{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Poppins';
+    color: #DA3E31;
+    font-size: 15px;
+    font-weight: 400;
+}
+.tbIcon{
+    font-size: 22px !important;
+    font-weight: 400;
+}
+.support{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Poppins';
+    color: #5D5F5F;
+    background: rgba(94, 99, 102, 0.1);
+    padding: 9px;
+    border-radius: 11px;
+    margin-left: 12px;
+}
+.biIcon{
+    font-size: 22px !important;
+    font-weight: 400;
+    color: black !important;
+}
+
+/* Sidenav css*/
+
+.icon-container{
+    width: 88px;
+    height: 100vh;
+    position: fixed;
+    display: inline-block;
+    /* background-color: grey; */
+    overflow-y: hidden;
+}
+.icon-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.menu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    margin-top: 35px;
+    font-size: 21px;  
+    color: #5D5F5F
+}
+.inventory1 a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu1{
+    font-size: 19px;
+}
+.dashboard1{
+    background-color: #E9672B;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 5px;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin-top: 90px;
+    gap: 38px;
+}
+.support-icon{
+    background: rgba(94, 99, 102, 0.1);
+    padding: 1px 7px;
+    border-radius: 9px;
+    color: #5D5F5F;
+}
+.logout-icon{
+    color: #DA3E31;
 }
 
 
