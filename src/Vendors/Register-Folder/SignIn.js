@@ -7,13 +7,13 @@ import Img5 from '../Register-Folder/Ragister-Images/apple .png'
 import '../Stylings/Register.css'
 
 const SignIn  = () => {
-  
+
 
   return (
     <>
          <div className='signup'>
           <div className='two-images'>
-            <img src={Img2} className='img2'/>
+            <img src={Img2} className='img2 '/>
             <img src={Images} className='img'/>
             </div>
                 <div className='inner-container'>
@@ -21,7 +21,7 @@ const SignIn  = () => {
                 <form>
                 <div className='no-account'>
                 <p>No Account ?</p>
-                <p className='sign'>Sign Up</p>
+                <p className='sign'><a href='SignUp.js'></a>Sign Up</p>
                 </div>
                 <h1 className='vendor'>Sign in as vendor</h1>
                 <p className='enter'>Enter your username or email address</p>
