@@ -301,6 +301,20 @@ margin-top: 25px;
     margin-top: 65px;
     font-size: 14px;
 }
+.signupImg {
+    position: absolute;
+   margin-left: -30%;
+   margin-top: -13%;
+}
+.signupImg2 {
+    position: absolute;
+    margin-left: -34%;
+    margin-top: -13%;
+}
+.signImg {
+    font-size: 120px;
+    color: #c5c5c8;
+}
 .for-vendor-signup{
     margin-top: 30px;
 }
@@ -313,6 +327,10 @@ margin-top: 25px;
     margin-top: 65px;
     font-size: 14px;   
 }
+.banner {
+    margin-left: -3%;
+    position: absolute;
+}
 .store-banner{
     font-weight: 600;
     margin-bottom: 5px;
@@ -320,6 +338,35 @@ margin-top: 25px;
 .first-upload-upload2{
 margin-top: -35px;
 }
+.vendor-change input {
+    display: none;
+}
+.signLabel p {
+    margin-top: -2%;
+    cursor: pointer;
+}
+.signUploaded .uploadedsignImg {
+    width: 27.4%;
+    height: 16.4%;
+    position: absolute;
+    margin-top: -18.5%;
+    margin-left: 4.4%;
+    border-radius: 12px;
+}
+.banner input {
+    display: none;
+}
+.signUploaded2 .uploadedsignImg2 {
+    width: 27.4%;
+    height: 16.5%;
+    position: absolute;
+    margin-top: -10%;
+    margin-left: -34%;
+    border-radius: 12px;
+}
+
+
+
 /* STATE FORM */
 .fifty-percent{
     background-color: rgb(61,144,227);

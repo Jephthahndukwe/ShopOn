@@ -1,6 +1,7 @@
 import React from 'react'
 import Img2 from '../Register-Folder/Ragister-Images/Group.png'
 import Images from '../Register-Folder/Ragister-Images/Dashboard.png'
+import { Link } from 'react-router-dom'
 const SignUp = () => {
   return (
     <>
@@ -19,7 +20,7 @@ const SignUp = () => {
                 <div className='onvendor'>
                 <h2 className='vendor sign-up-as-vendor'>Sign up as vendor</h2>
                 <div className='for-email-placeholder'>
-                <p>ghwedhffffffffffwerjhkfgwerj</p>
+                <p>Email Address</p>
                 <input className='username email-address' type='text' placeholder='Email address'></input><br></br>
                 </div>
                 <p className='doyouwant'><input type='checkbox'/>  Do you want to display email address on product and </p>
@@ -32,7 +33,7 @@ const SignUp = () => {
                 </div>
                 <p className='enter yourpassword'>Enter your password</p>
                 <input className='username email-address' type='text' placeholder='Password'></input><br></br>
-                <button className='signin-button button2'>Continue</button>
+                <button className='signin-button button2'><Link to='/VendorSignup'>Continue</Link></button>
                 <div className='have-sign'>
                 <p>Have an Account ?</p>
                 <p className='orange-sign'><a href='SignIn.js'>Sign in</a> </p>

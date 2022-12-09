@@ -13,21 +13,20 @@ import Sidenav from './Vendors/dashboard/Sidenav';
 function App() {
   return (
     <>
-    <SignIn/>
-    <SignUp/>
-    <VendorSignup/>
-    <Stateform/>
+    {/* <SignIn/> */}
+    {/* <SignUp/> */}
+    {/* <VendorSignup/> */}
+    {/* <Stateform/> */}
       <Router>
         {/* <Sidenav/> */}
         <Routes>
+          <Route path='/' element={<SignUp/>} />
+          <Route path='/VendorSignup' element={<VendorSignup/>}/>
+          <Route path='/Stateform' element={<Stateform/>}/>
           {/* <Route path='/SignUp' element={<SignUp/>} /> */}
-<<<<<<< HEAD
-=======
-          <Route path='/SignUp' element={<SignUp/>} />
->>>>>>> origin/master
-          <Route path='/' element={<Topnav/>} />
-          <Route path="/InventoryNav" element={<InventoryNav/>}/>
-          <Route path='/InventoryAdd' element={<InventoryAdd/>} />
+          {/* <Route path='/' element={<Topnav/>} /> */}
+          {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
+          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
         </Routes>
       </Router>
     </>
