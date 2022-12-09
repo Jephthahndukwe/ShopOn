@@ -5,6 +5,7 @@ import Img3 from '../Register-Folder/Ragister-Images/google.png'
 import Img4 from '../Register-Folder/Ragister-Images/Facebook.png'
 import Img5 from '../Register-Folder/Ragister-Images/apple .png'
 import '../Stylings/Register.css'
+import { Link } from 'react-router-dom'
 
 const SignIn  = () => {
 
@@ -21,7 +22,7 @@ const SignIn  = () => {
                 <form>
                 <div className='no-account'>
                 <p>No Account ?</p>
-                <p className='sign'><a href='SignUp.js'></a>Sign Up</p>
+                <p className='sign'><Link to='/SignUp'>Sign Up</Link></p>
                 </div>
                 <h1 className='vendor'>Sign in as vendor</h1>
                 <p className='enter'>Enter your username or email address</p>
