@@ -21,6 +21,10 @@ function App() {
         {/* <Sidenav/> */}
         <Routes>
           {/* <Route path='/SignUp' element={<SignUp/>} /> */}
+<<<<<<< HEAD
+=======
+          <Route path='/SignUp' element={<SignUp/>} />
+>>>>>>> origin/master
           <Route path='/' element={<Topnav/>} />
           <Route path="/InventoryNav" element={<InventoryNav/>}/>
           <Route path='/InventoryAdd' element={<InventoryAdd/>} />

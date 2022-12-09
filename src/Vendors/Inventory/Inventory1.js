@@ -36,13 +36,13 @@ const Inventory1 = () => {
                 </div>
                 <hr className='product-hr'/>
 
-                {/* <div className='Noproduct'>
+                <div className='Noproduct'>
                   <h3>No Product Added Yet</h3>
                   <p>Add products to your store and start selling <br/> to see your products here.</p>
                   <Link to='/InventoryAdd'><FaPlus className='plus'/> Add Product</Link>
-                </div> */}
+                </div>
 
-                <div className='products-list'>
+                {/* <div className='products-list'>
                     <input type='checkbox' className='check'/>
                     <p>Product name <img src={sort}/></p>
                     <p>Category <img src={sort}/></p>
@@ -71,7 +71,7 @@ const Inventory1 = () => {
                       <option>other</option>
                     </select>
                     <p className='publish'>Published</p>
-                </div>
+                </div> */}
             </div>
     </div>
   )

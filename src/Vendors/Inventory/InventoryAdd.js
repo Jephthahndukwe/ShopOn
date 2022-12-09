@@ -207,7 +207,7 @@ const InventoryAdd = () => {
                             </label>
                             <div className='discount' value={discount}>
                                 <p>Discount</p>
-                                <p className='add'>Add Discount</p>
+                                <p className='adds'>Add Discount</p>
                                 <h4>Input value %{discount}</h4>
                             </div>
                             <div className='time'>
