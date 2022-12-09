@@ -3,6 +3,8 @@ import '../Stylings/Inventory.css'
 import { FaBell, FaHome, FaCloudUploadAlt, FaTrash, FaPlus } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import img from '../Inventory/img/Image.png'
+import pro from '../Inventory/img/profile 1.png'
+import InventoryNav1 from './InventoryNav1'
 
 const InventoryAdd = () => {
     const [productName, setProductName] = useState("")
@@ -51,25 +53,7 @@ const InventoryAdd = () => {
 
   return (
     <div className='body'>
-        <div className='header'>
-            <nav>
-                <h1>Inventory</h1>
-                <select className='select'>
-                    <option>TEE Gadgets</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                </select>
-                    <FaBell className='bells'/>
-            </nav>
-            <div className='head'>
-                <Link to='/'><p><FaHome className='home'/></p></Link>
-                <p>/</p>
-                <p>Inventory</p>
-            </div>
-        </div>
+        <InventoryNav1/>
         <div className='newInventory'>
             <div className='newInvent'>
             <h3>New Inventory Item</h3>
@@ -180,9 +164,8 @@ const InventoryAdd = () => {
                         <input type='number' value={quantity} placeholder='Quantity in Stock' className='quantity input' onChange={(e) => setQuantity(e.target.value)} />
                         <select value={orderType} onChange={(e) => setOrderType(e.target.value)}>
                             <option>Order Type</option>
-                            <option>other</option>
-                            <option>other</option>
-                            <option>other</option>
+                            <option>Home Delivery</option>
+                            <option>Pick Up</option>
                         </select>
                         <select value={variationType} onChange={(e) => setVariationType(e.target.value)}>
                             <option>variation Type</option>

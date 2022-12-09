@@ -58,7 +58,7 @@ const Inventory1 = () => {
                 <div className='product-item'>
                     <input type='checkbox' className='check'/>
                     <img src={test} value={productImg}/>
-                   <p className='name'><Link to='/'>{productName}</Link></p>
+                   <p className='name'><Link to='/InventoryDetails'>{productName}</Link></p>
                     <p className='category'>{productCategory}</p>
                     <p className='price'>{sellingPrice}</p>
                     <p className='stock'>{quantity}</p>
