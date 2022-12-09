@@ -73,7 +73,7 @@
     /* background-color: #7E72F2; */
 }
 .amount{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .figure{
     margin-top: 17px;
@@ -120,6 +120,7 @@ gap: 83px;
     justify-content: center;
     align-items: center;
     margin-top: 9px;
+    overflow: hidden;
 }
 .card-detail{
     margin: auto;

@@ -14,11 +14,8 @@ function App() {
       <Router>
         <Sidenav/>
         <Routes>
-<<<<<<< HEAD
           {/* <Route path='/SignUp' element={<SignUp/>} /> */}
-=======
           <Route path='/SignUp' element={<SignUp/>} />
->>>>>>> origin/master
           <Route path='/' element={<Topnav/>} />
           <Route path="/InventoryNav" element={<InventoryNav/>}/>
           <Route path='/InventoryAdd' element={<InventoryAdd/>} />
