@@ -119,6 +119,7 @@ gap: 83px;
     justify-content: center;
     align-items: center;
     margin-top: 9px;
+    overflow: hidden;
 }
 .card-detail{
     margin: auto;

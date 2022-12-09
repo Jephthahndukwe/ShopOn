@@ -253,7 +253,7 @@ span{
     position: fixed;
     display: inline-block;
     /* background-color: grey; */
-    overflow-y: hidden;
+    overflow: hidden;
 }
 .icon-wrapper{
     width: 100%;
@@ -261,29 +261,38 @@ span{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 .menu-items{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 27px;
+    gap: 23px;
     margin-top: 35px;
     font-size: 21px;  
-    color: #5D5F5F
+    color: #5D5F5F;
+    overflow: hidden;
 }
 .inventory1 a{
     text-decoration: none;
     color: inherit;
 }
+.icon-wrapper .logo {
+    margin-top: 25%;
+}
+
 .menu1{
     font-size: 19px;
+}
+.logo, .menu1, .shopping, .contact, .inventory1, .messsage, .currency, .setting, .logout-icon, .support-icon {
+    overflow: hidden;
 }
 .dashboard1{
     background-color: #E9672B;
     color: #FFFFFF;
     padding: 7px;
     border-radius: 5px;
+    overflow: hidden;
 }
 .foot{
     display: flex;
