@@ -5,10 +5,12 @@ import {RiDashboardFill} from 'react-icons/ri'
 import {IoMdContacts} from 'react-icons/io'
 import {MdOutlineInventory2} from 'react-icons/md'
 import {TbMessageCircle} from 'react-icons/tb'
-import {TbCurrencyDollar} from 'react-icons/tb'
+import {TbCurrencyDollar, TbLogout} from 'react-icons/tb'
 import {FiSettings} from 'react-icons/fi'
+import {BiSupport} from 'react-icons/bi'
 import {MdOutlineShoppingBag} from 'react-icons/md'
 import { Link } from 'react-router-dom'
+import Logo from './img/SHOPON.png'
 
 const Sidebar = () => {
   return (
@@ -16,7 +18,7 @@ const Sidebar = () => {
         <div className='sidebar-container'>
             <div className='wrapper'>
                 <div className='logo'>
-                    SHOPON
+                   <img src={Logo}/>
                 </div>
                 <div className='menu-icon'>
                 <RiMenuFoldLine/>
@@ -42,9 +44,19 @@ const Sidebar = () => {
                 <div className='settings-icon'>
                     <FiSettings className='settings'/><span>Settings</span>
                 </div>
-            </div>
-        </div>
-    </>
+                <div className='footer'>
+                    <div className='logout'>
+                        <TbLogout className='tbIcon'/>
+                        Logout
+                    </div>
+                    <div className='support'>
+                        <BiSupport className='biIcon'/>
+                       Support
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </>
   )
 }
 
