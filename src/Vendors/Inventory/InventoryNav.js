@@ -38,7 +38,7 @@ const [stock, setStock] = useState("₦922,901,000.00")
                     </div>
                 </div>
                 <div className='invent2-box'>
-                    <h4>CHIKA</h4>
+                    <h4>Categories</h4>
                     <h5><span className='num'>24</span> <span className='span'>View all categories</span></h5>
                     <h5 className='sub'>Sub categories</h5>
                     <h5><span className='num'>64</span> <span className='span'>View all</span></h5>
