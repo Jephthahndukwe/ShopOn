@@ -1,0 +1,63 @@
+.chair{
+    position: absolute;
+    z-index: 2;
+    margin-left: 8%;
+    top: 2.5%;
+}
+.exp{
+    margin-right: 9%;
+    border-radius: 30px;
+    height: 48px;
+    color: white;
+    font-size: 9px;
+    width: 197px;
+    align-self: center;
+    background-color: #DA3E31;
+    border: none;
+}
+.md{
+    height: 141px;
+    background-color: #103D37;
+}
+.off{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.tex{
+    text-align: center;
+    margin-top: 35px;
+}
+.up{
+    font-size: 1vw;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.s60{
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: -30%;
+    margin-left: 20%;
+}
+.per{
+    font-size: 0.8vw;
+    margin-left: 3%;
+}
+.cen{
+    margin-top: -12px;
+}
+.of{
+    margin-top: -20px;
+}
+.mrww{
+    color: #CDD454;
+    font-size: 12px;
+}
+.gdap{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}

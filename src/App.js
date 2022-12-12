@@ -1,4 +1,4 @@
-import './App.css';
+// import './App.css';
 import Topnav from './Vendors/dashboard/Topnav';
 import InventoryNav from './Vendors/Inventory/InventoryNav'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
@@ -10,6 +10,10 @@ import VendorSignup from './Vendors/Register-Folder/VendorSignup';
 import Sidenav from './Vendors/dashboard/Sidenav';
 import Bankform from './Vendors/Register-Folder/Bankform';
 import Lastform from './Vendors/Register-Folder/Lastform';
+import InventoryDetails from './Vendors/Inventory/InventoryDetails';
+import ShopElectronics from './Users/LandingPage/ShopElectronics';
+import Landingpage from './Vendors/dashboard/Landing';
+
 
 function App() {
   return (
@@ -28,9 +32,11 @@ function App() {
           <Route path='/Stateform' element={<Stateform/>}/>
           <Route path='/Bankform' element={<Bankform/>}/>
           <Route path='/Lastform' element={<Lastform/>}/>
-          {/* <Route path='/' element={<Topnav/>} /> */}
-          {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
-          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
+          <Route path='/' element={<ShopElectronics/>} />
+          {/* <Route path='/' element={<SignUp/>} /> */}
+          <Route path='/' element={<Topnav/>}/>
+          <Route path="/InventoryNav" element={<InventoryNav/>}/>
+          <Route path='/InventoryAdd' element={<InventoryAdd/>} />
         </Routes>
       </Router>
     </>

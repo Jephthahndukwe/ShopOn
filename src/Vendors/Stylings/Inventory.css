@@ -10,7 +10,7 @@
 }
 
 .body {
-    margin-left: 88px;
+    margin-left: 75px;
 }
 
 .header nav {
@@ -314,13 +314,14 @@ nav .bells {
 .product-detail {
     margin-top: 2%;
     margin-left: 2%;
-    width: 1220px;
+    width: 1170px;
     height: 600px;
     background: #FFFFFF;
     border-radius: 12px;
     flex: none;
     order: 2;
     flex-grow: 0;
+    /* padding: 90px; */
 }
 .product-nav {
     display: flex;
