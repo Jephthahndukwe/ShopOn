@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Stylings/Landingpage.css'
+import '../Stylings/Landing.css'
 import oval from './img/Ovaloval.png'
 import path from './img/Pathpath.png'
 import {HiOutlineShoppingBag} from 'react-icons/hi'
@@ -8,7 +8,7 @@ import {TbMoonStars} from 'react-icons/tb'
 import {TbWallet} from 'react-icons/tb'
 import card2 from './img/Card 2.png'
 
-const Landingpage = () => {
+const Landing = () => {
   return (
     <>
       <div className='landingpage-container'>
@@ -120,11 +120,11 @@ const Landingpage = () => {
                   <p className='orders'>All orders</p>
                   <p className='zeros'>0</p>
                 </div>
-                <div className='pending'><p>Pending</p><p className='zeros'>0</p></div>
+                <div className='pendings'><p>Pending</p><p className='zeros'>0</p></div>
                 <div className='completed'>
                   <p>Completed</p>
                   <div className='complete-value'>
-                    <p className='custom-zero'>0</p><p>+0.00%</p>
+                    <p className='custom-zero'>0</p><p className='percent'>+0.00%</p>
                   </div>
                 </div>
               </div>
@@ -192,4 +192,4 @@ const Landingpage = () => {
   )
 }
 
-export default Landingpage
+export default Landing;

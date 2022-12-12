@@ -9,7 +9,7 @@ import Stateform from './Vendors/Register-Folder/Stateform';
 import VendorSignup from './Vendors/Register-Folder/VendorSignup';
 import Sidenav from './Vendors/dashboard/Sidenav';
 import InventoryDetails from './Vendors/Inventory/InventoryDetails';
-import Landingpage from './Vendors/dashboard/Landingpage';
+import Landingpage from './Vendors/dashboard/Landing';
 
 
 function App() {
