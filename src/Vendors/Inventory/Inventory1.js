@@ -10,7 +10,7 @@ const Inventory1 = () => {
     const [productName, setProductName] = useState("Luis Vuitton Jacket")
     const [productCategory, setProductCategory] = useState("Fashion")
     const [sellingPrice, setSellingPrice] = useState("₦15,000.00")
-    const [quantity, setQuantity] = useState("8")
+    const [qtyInStock, setQuantity] = useState("8")
     const [discount, setDiscount] = useState("₦0.00")
     const [value, setValue] = useState("₦8000.00")
     const [action, setAction] = useState("")
@@ -36,13 +36,13 @@ const Inventory1 = () => {
                 </div>
                 <hr className='product-hr'/>
 
-                <div className='Noproduct'>
+                {/* <div className='Noproduct'>
                   <h3>No Product Added Yet</h3>
                   <p>Add products to your store and start selling <br/> to see your products here.</p>
                   <Link to='/InventoryAdd'><FaPlus className='plus'/> Add Product</Link>
-                </div>
+                </div> */}
 
-                {/* <div className='products-list'>
+                <div className='products-list'>
                     <input type='checkbox' className='check'/>
                     <p>Product name <img src={sort}/></p>
                     <p>Category <img src={sort}/></p>
@@ -58,12 +58,12 @@ const Inventory1 = () => {
                 <div className='product-item'>
                     <input type='checkbox' className='check'/>
                     <img src={test} value={productImg}/>
-                   <p className='name'><Link to='/'>{productName}</Link></p>
+                   <p className='name'><Link to='/InventoryDetails'>{productName}</Link></p>
                     <p className='category'>{productCategory}</p>
                     <p className='price'>{sellingPrice}</p>
-                    <p className='stock'>{quantity}</p>
+                    <p className='stock'>{qtyInStock}</p>
                     <p className='discount'>{discount}</p>
-                    <p className='value'>{value}</p>
+                    <p className='valuess'>{value}</p>
                     <select className='action'>
                       <option className='option'>Publish</option>
                       <option>other</option>
@@ -71,7 +71,7 @@ const Inventory1 = () => {
                       <option>other</option>
                     </select>
                     <p className='publish'>Published</p>
-                </div> */}
+                </div>
             </div>
     </div>
   )
