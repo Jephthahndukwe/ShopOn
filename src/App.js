@@ -20,28 +20,29 @@ function App() {
   return (
     <>
       <Router>
+        <Sidenav/>
         <Routes>          
-          <Route path='/ShopElectronics' element={<ShopElectronics/>}/>
+          {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
 
-         <Route path='/ProductDetail' element={<ProductDetail/>}/>
+         {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}
           
 
 
 
 
-        {/* <Route path='/' element={<SignUp/>} />
-          <Route path='/SignIn' element={<SignIn/>}/>
-          <Route path='/VendorSignup' element={<VendorSignup/>}/>
-          <Route path='/Stateform' element={<Stateform/>}/>
-          <Route path='/Bankform' element={<Bankform/>}/>
-          <Route path='/Lastform' element={<Lastform/>}/>
+        {/* <Route path='/' element={<SignUp/>} /> */}
+          {/* <Route path='/SignIn' element={<SignIn/>}/> */}
+          {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
+          {/* <Route path='/Stateform' element={<Stateform/>}/> */}
+          {/* <Route path='/Bankform' element={<Bankform/>}/> */}
+          {/* <Route path='/Lastform' element={<Lastform/>}/> */}
           <Route path='/' element={<Topnav/>}/>
           <Route path="/InventoryNav" element={<InventoryNav/>}/>
-          <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
+          <Route path='/InventoryAdd' element={<InventoryAdd/>} />
+          <Route path='/InventoryDetails' element={<InventoryDetails/>}/>
         </Routes>
       </Router>
     </>
   );
 }
-
 export default App;
