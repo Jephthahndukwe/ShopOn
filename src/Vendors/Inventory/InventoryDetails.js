@@ -15,7 +15,7 @@ const InventoryDetails = () => {
         <div className='details'>
           <h3>Luis Vuitton Jacket</h3>
           <p>Date Added 12 Sept 2022 - 12:55 pm</p>
-          <p>Product URL soairshopon.com/teegadgets-fashion-luisv...</p>
+          <a href=''><p>Product URL soairshopon.com/teegadgets-fashion-luisv...</p></a>
           <img src={copy} className='copy'/>
           <select>
             <option>Edit a Product</option>
@@ -51,9 +51,9 @@ const InventoryDetails = () => {
                   <img src={pie} className='pie'/>
                   <select>
                     <option>All-Time</option>
-                    <option>other</option>
-                    <option>other</option>
-                    <option>other</option>
+                    <option>This Week</option>
+                    <option>Last Week</option>
+                    <option>Last Month</option>
                   </select>
                   </div>
                   <div className='timeP'>
@@ -66,9 +66,9 @@ const InventoryDetails = () => {
                   <img src={eye}/>
                   <select>
                     <option>All-Time</option>
-                    <option>other</option>
-                    <option>other</option>
-                    <option>other</option>
+                    <option>This Week</option>
+                    <option>Last Week</option>
+                    <option>Last Month</option>
                   </select>
                 </div>
                 <div className='views'>
@@ -90,9 +90,9 @@ const InventoryDetails = () => {
                 <img src={bag}/>
                 <select>
                   <option>All-Time</option>
-                  <option>other</option>
-                  <option>other</option>
-                  <option>other</option>
+                  <option>This Week</option>
+                  <option>Last Week</option>
+                  <option>Last Month</option>
                 </select>
             </div>
             <div className='pending'>
@@ -115,9 +115,9 @@ const InventoryDetails = () => {
             <img src={bag}/>
             <select>
               <option>All-Time</option>
-              <option>other</option>
-              <option>other</option>
-              <option>other</option>
+              <option>This Week</option>
+              <option>Last Week</option>
+              <option>Last Month</option>
             </select>
           </div>
           <div className='pending'>

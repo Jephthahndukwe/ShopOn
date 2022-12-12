@@ -10,7 +10,7 @@ const Inventory1 = () => {
     const [productName, setProductName] = useState("Luis Vuitton Jacket")
     const [productCategory, setProductCategory] = useState("Fashion")
     const [sellingPrice, setSellingPrice] = useState("₦15,000.00")
-    const [quantity, setQuantity] = useState("8")
+    const [qtyInStock, setQuantity] = useState("8")
     const [discount, setDiscount] = useState("₦0.00")
     const [value, setValue] = useState("₦8000.00")
     const [action, setAction] = useState("")
@@ -61,9 +61,9 @@ const Inventory1 = () => {
                    <p className='name'><Link to='/InventoryDetails'>{productName}</Link></p>
                     <p className='category'>{productCategory}</p>
                     <p className='price'>{sellingPrice}</p>
-                    <p className='stock'>{quantity}</p>
+                    <p className='stock'>{qtyInStock}</p>
                     <p className='discount'>{discount}</p>
-                    <p className='value'>{value}</p>
+                    <p className='valuess'>{value}</p>
                     <select className='action'>
                       <option className='option'>Publish</option>
                       <option>other</option>

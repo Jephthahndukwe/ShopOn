@@ -77,7 +77,7 @@ const InventoryAdd = () => {
                             <span>Upload Image</span>
                             <input type='file' name='images' onChange={onSelectFile} />
                         </label>
-                        <p>Upload a cover image for your product.<br/> File Format jpeg, png Recommened Size 600x600 (1:1)</p>
+                        <p>Upload a cover image for your product.<br/> File Format jpeg, png Recommed Size 600x600 (1:1)</p>
                     </div>
                     <div className='imgUploaded'>
                         {selectedImages && 
@@ -179,16 +179,16 @@ const InventoryAdd = () => {
                         </div>
 
                         <div className='form-2'>
-                            <textarea value={message} placeholder='Short Description' className='message'/>
+                            <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Short Description' className='message'/>
                             <label>
                                 <p>Product Long Description</p>
-                                <textarea value={longMessage} placeholder='your text get here'/>
+                                <textarea value={longMessage} onChange={(e) => setLongMessage(e.target.value)} placeholder='Your text get here'/>
                             </label>
                             <label>
                                 <p>Add a long description for your product</p>
-                                <textarea value={specification} placeholder='Specifications'/>
+                                <textarea value={specification} onChange={(e) => setSpecification(e.target.value)} placeholder='Specifications'/>
                             </label>
-                            <div className='discount' value={discount}>
+                            <div className='discount' value={discount} onChange={(e) => setDiscount(e.target.value)}>
                                 <p>Discount</p>
                                 <p className='adds'>Add Discount</p>
                                 <h4>Input value %{discount}</h4>
