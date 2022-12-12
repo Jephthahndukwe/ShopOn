@@ -47,7 +47,7 @@ const Inventory1 = () => {
                   <Link to='/InventoryAdd'><FaPlus className='plus'/> Add Product</Link>
                 </div> 
               : 
-              <div>g
+              <div>
               <div className='products-list'>
                     <input type='checkbox' className='check'/>
                     <p>Product name <img src={sort}/></p>
