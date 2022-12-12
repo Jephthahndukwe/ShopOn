@@ -18,8 +18,10 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 1%;
+    margin: 0px 18px;
     padding-bottom: 15px;
     border-bottom: 1px solid #eee;
+    margin-right: 1%;
 }
 nav h1 {
     font-family: 'Poppins', sans-serif;
@@ -27,6 +29,27 @@ nav h1 {
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+}
+.belll {
+    display: flex;
+    align-items: center;
+}
+.belll .images {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.profileUploaded .profileImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    position: absolute;
+    margin-top: -1.8%;
+    margin-left: -3%;
+}
+.belll input {
+    display: none;
 }
 nav .selects{
     height: 32px;
@@ -36,7 +59,9 @@ nav .selects{
     background-color: #fef5ea;
     border-radius: 5px;
     border: none;
-    margin-right: -70%;
+    margin-right: -65%;
+    margin-top: -8px;
+    cursor: pointer;
 }
 nav .arrow {
     position: absolute;
@@ -45,8 +70,12 @@ nav .arrow {
     margin-left: 8px;
 }
 nav .bells {
-    margin-right: 5%;
+    position: absolute;
+    margin-left: -4%;
+    font-size: 30px;
     color: #DE5212;
+    margin-top: -5px;
+    cursor: pointer;
 }
 .head {
     margin-left: -5px;
@@ -170,7 +199,7 @@ nav .bells {
     margin-top: 3%;
 }
 .invent2-box .num {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -211,6 +240,7 @@ nav .bells {
     color: #E9672B;
     margin-left: 18%;
     margin-top: -2%;
+    cursor: pointer;
 }
 .Alert {
     background: #FFFFFF;
@@ -239,6 +269,7 @@ nav .bells {
     color: #B6B8B8;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 .Alert .arrow {
     margin-top: 3.8px;
@@ -253,7 +284,7 @@ nav .bells {
     color: #DA3E31;
 }
 .invent-box3 p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -261,7 +292,7 @@ nav .bells {
     color: #5D5F5F;
 }
 .invent-box3 .num {
-    font-family: 'Poppins';
+    font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -299,7 +330,7 @@ nav .bells {
     margin-top: 1.5%;
 }
 .product-nav h3 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -379,6 +410,7 @@ nav .bells {
     font-weight: 300;
     font-size: 14px;
     line-height: 13px;
+    border-radius: 4px;
     color: #5D5F5F;
     outline: none;
     cursor: pointer;
@@ -409,7 +441,7 @@ nav .bells {
     color: #000000;
 }
 .Noproduct p {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -448,7 +480,6 @@ input.check {
 
 .products-list {
     display: flex;
-    /* justify-content: space-around; */
     align-items: center;
     margin-top: 1.5%;
     margin-left: 6%;
@@ -456,11 +487,12 @@ input.check {
 .products-list input {
     margin-left: -3.6%;
     position: absolute;
+    cursor: pointer;
 }
 .products-list p {
     display: flex;
     align-items: center;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -479,6 +511,7 @@ input.check {
 }
 .product-item input {
     margin-left: -1%;
+    cursor: pointer;
 }
 .product-item img {
     margin-left: -4%;
@@ -556,6 +589,7 @@ input.check {
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
+    cursor: pointer;
 }
 .newInvent .new a {
     margin-left: 20px;
@@ -646,7 +680,7 @@ input.check {
     color: #DE5212;
 }
 .imgInventory {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -784,18 +818,23 @@ input.check {
 
 
 .add-box2 {
-    width: 800px;
+    max-width: 800px;
     height: 813px;
     background: #FFFFFF;
     border-radius: 20px;
     margin-left: 35%;
     margin-top: -64.5%;
+    margin-bottom: 5%;
+    overflow: hidden;
 }
 .select2, .select3 {
     -webkit-appearance: none;
 }
 .quantity {
     padding: 30px;
+}
+.form {
+    overflow: auto;
 }
 .form .input {
     display: flex;
@@ -989,4 +1028,319 @@ input.check {
 }
 .form-2 .timer {
     margin-left: 9%;
+}
+
+/* INVENTORYDETAILS START NOW */
+
+.inventoryDetails {
+    background-color: #F4F5FA;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1.5%;
+}
+.details .copy {
+    cursor: pointer;
+}
+.details h3, p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #45464E;
+}
+
+.details select {
+    display: flex;
+    align-items: center;
+    /* width: 161px; */
+    padding: 5px;
+    width: 150px;
+    height: 36px;
+    color: #FFFFFF;
+    background: #1D1F1F;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.details .unpublish {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 36px;
+    color: #FFFFFF;
+    background: #DA3E31;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.productDetail {
+    margin-top: 2%;
+    margin-left: 0.3%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+.productImg img {
+    padding: 11px 15px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.last {
+    padding: 11px 15px;
+    width: 410px;
+    height: 145px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5D5F5F;
+}
+.last .lastOrder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lastOrder p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5D5F5F;
+}
+.lastOrder .productPublish {
+    padding: 4px 17px;
+    width: 78px;
+    height: 23px;
+    background: rgba(50, 147, 111, 0.16);
+    border-radius: 8px;
+}
+.last .money {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+    margin-left: -23%;
+}
+.money p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #5D5F5F;
+}
+.money .s-price {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #45464E;
+    margin-top: 10%;
+}
+.productTime {
+    padding: 11px 15px;
+    width: 330px;
+    height: 145px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.productTime .timing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productTime select {
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B6B8B8;
+    cursor: pointer;
+}
+.productTime img {
+    padding: 5px;
+    background: rgba(85, 112, 241, 0.08);
+    border-radius: 8px;
+}
+.productTime .timeP {
+    margin-top: 15%;
+    font-family: 'Inter', sans-serif;
+}
+.timeP p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5F5F;
+}
+.timeP .timePrice {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    align-items: center;
+    color: #45464E;
+}
+.view {
+    padding: 11px 15px;
+    width: 328px;
+    height: 145px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+.view .eye {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eye select {
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B6B8B8;
+    cursor: pointer;
+}
+.eye img {
+    padding: 5px;
+    background: rgba(255, 204, 145, 0.16);
+    border-radius: 8px;
+}
+.view .views {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13%;
+    margin-left: -20%;
+}
+.views p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5F5F;
+}
+.views .viewPrice {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    color: #45464E;
+    margin-top: 10%;
+}
+
+.productPending {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: -1%;
+}
+
+.productOrder {
+    padding: 0px 15px;
+    width: 646px;
+    height: 152px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 1.2%;
+}
+.bag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+.bag img {
+    padding: 5px;
+    background: rgba(255, 204, 145, 0.16);
+    border-radius: 8px;
+}
+.bag select {
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #B6B8B8;
+    cursor: pointer;
+}
+.pending {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -14%;
+    margin-top: 10%;
+}
+.pending p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5F5F;
+}
+.pending .pend {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #45464E;
+    margin-top: 10%;
+}
+.canceled {
+    padding: 0px 15px;
+    width: 646px;
+    height: 152px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin-left: 1.2%;
+}
+.product-detail2 {
+    background-color: #FFFFFF;
+    width: 1235px;
+    height: 600px;
+    margin-left: 1%;
+    margin-top: 2%;
+    border-radius: 12px;
+}
+.list2 input {
+    margin-left: -2%;
+}
+.list2 p {
+    margin-left: 5%;
+}
+.list3 input {
+    margin-left: -2%;
+}
+.list3 p {
+    padding: 0 6px;
+}
+.list3 .status {
+    width: 85px;
+    height: 26px;
+    background: rgba(50, 147, 111, 0.16);
+    border-radius: 8px;
 }
