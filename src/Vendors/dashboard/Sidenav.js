@@ -13,8 +13,10 @@ import Logo1 from './img/S.png'
 import Sidebar from './Sidebar'
 import { Link } from 'react-router-dom'
 
-const Sidenav = () => {
+const Sidenav = (props) => {
     const [display, setDisplay] = useState(true)
+
+    const active = props.render ? 'dashboard-active' : undefined
     
     const menuToggle = () =>{
         setDisplay(!display)
@@ -33,7 +35,7 @@ const Sidenav = () => {
                     <RiDashboardFill/>
                 </div>
                 <div className='shopping'>
-                    <MdOutlineShoppingBag/>
+                    <MdOutlineShoppingBag onClick={`${active}`}/>
                 </div>
                 <div className='contact'>
                     <IoMdContacts/>
