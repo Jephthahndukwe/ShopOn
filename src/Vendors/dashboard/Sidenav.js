@@ -14,13 +14,7 @@ import Sidebar from './Sidebar'
 import { Link } from 'react-router-dom'
 
 const Sidenav = (props) => {
-    const [display, setDisplay] = useState(true)
-
-    const active = props.render ? 'dashboard-active' : undefined
-    
-    const menuToggle = () =>{
-        setDisplay(!display)
-    }
+ 
   return (
     <>
         {/* {display && <Sidebar/>} */}
@@ -29,13 +23,13 @@ const Sidenav = (props) => {
                 <div className='logo'><img src={Logo1}/></div>
                 <div className='menu-items'>
                 <div className='menu1'>
-                    <RiMenuFoldLine onClick={menuToggle}/>
+                    <RiMenuFoldLine />
                 </div>
                 <div className='dashboard1'>
-                    <RiDashboardFill/>
+                   <Link to='/' style={{textDecoration: 'none', color: 'inherit'}}><RiDashboardFill/></Link> 
                 </div>
                 <div className='shopping'>
-                    <MdOutlineShoppingBag onClick={`${active}`}/>
+                    <MdOutlineShoppingBag/>
                 </div>
                 <div className='contact'>
                     <IoMdContacts/>
