@@ -10,7 +10,7 @@
 }
 
 .body {
-    margin-left: 75px;
+    margin-left: 88px;
 }
 
 .header nav {
@@ -135,19 +135,19 @@ nav .bells {
     margin-left: 1.5%;
 }
 .stock {
-    margin-left: -2%;
+    margin-left: -4%;
 }
 .invent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 1%;
+    padding: 10px;
 }
 .invent-box {
     background: #FBF8F5;
     border-radius: 12px;
     margin-top: 2%;
     margin-left: 1.5%;
-    width: 85%;
+    width: 90%;
 }
 .invent-box .folder {
     margin-top: 4%;
@@ -170,6 +170,9 @@ nav .bells {
     line-height: 17px;
     color: #E9672B;
 }
+.invent-box2 .Stock {
+    margin-left: -1%;
+}
 .invent-box2 .Product, .Stock {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -179,13 +182,14 @@ nav .bells {
     display: flex;
     align-items: center;
     padding-top: 8%;
+    color: #DE5212;
 }
 
 .invent2-box {
     background: #FFFFFF;
     border-radius: 12px;
     margin-top: 2%;
-    margin-left: -10%;
+    margin-left: -5%;
     width: 95%;
     padding-left: 3%;
 }
@@ -246,7 +250,7 @@ nav .bells {
     background: #FFFFFF;
     border-radius: 12px;
     margin-top: 2%;
-    margin-left: -10%;
+    margin-left: -6%;
     width: 105%;
     padding-left: 3%;
 }
@@ -314,7 +318,7 @@ nav .bells {
 .product-detail {
     margin-top: 2%;
     margin-left: 2%;
-    width: 1170px;
+    width: 1230px;
     height: 600px;
     background: #FFFFFF;
     border-radius: 12px;
@@ -1083,7 +1087,7 @@ input.check {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .productImg img {
     padding: 11px 15px;

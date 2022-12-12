@@ -16,8 +16,11 @@ const Inventory1 = () => {
     const [action, setAction] = useState("")
     const [status, setStatus] = useState("")
 
+    const [productDetail] = useState(true)
+
   return (
     <div>
+      
          <div className='product-detail'>
                 <div className='product-nav'>
                     <h3>Inventory Items</h3>
@@ -36,13 +39,16 @@ const Inventory1 = () => {
                 </div>
                 <hr className='product-hr'/>
 
-                {/* <div className='Noproduct'>
+
+              {productDetail? 
+                <div className='Noproduct'>
                   <h3>No Product Added Yet</h3>
                   <p>Add products to your store and start selling <br/> to see your products here.</p>
                   <Link to='/InventoryAdd'><FaPlus className='plus'/> Add Product</Link>
-                </div> */}
-
-                <div className='products-list'>
+                </div> 
+              : 
+              <div>g
+              <div className='products-list'>
                     <input type='checkbox' className='check'/>
                     <p>Product name <img src={sort}/></p>
                     <p>Category <img src={sort}/></p>
@@ -53,25 +59,31 @@ const Inventory1 = () => {
                     <p>Action <img src={sort}/></p>
                     <p>Status <img src={sort}/></p>
                 </div>
-                <hr className='product-hr'/>
+                 <hr className='product-hr'/>
 
-                <div className='product-item'>
-                    <input type='checkbox' className='check'/>
-                    <img src={test} value={productImg}/>
-                   <p className='name'><Link to='/InventoryDetails'>{productName}</Link></p>
-                    <p className='category'>{productCategory}</p>
-                    <p className='price'>{sellingPrice}</p>
-                    <p className='stock'>{qtyInStock}</p>
-                    <p className='discount'>{discount}</p>
-                    <p className='valuess'>{value}</p>
-                    <select className='action'>
-                      <option className='option'>Publish</option>
-                      <option>other</option>
-                      <option>other</option>
-                      <option>other</option>
-                    </select>
-                    <p className='publish'>Published</p>
-                </div>
+                 <div className='product-item'>
+                     <input type='checkbox' className='check'/>
+                     <img src={test} value={productImg}/>
+                    <p className='name'><Link to='/InventoryDetails'>{productName}</Link></p>
+                     <p className='category'>{productCategory}</p>
+                     <p className='price'>{sellingPrice}</p>
+                     <p className='stock'>{qtyInStock}</p>
+                     <p className='discount'>{discount}</p>
+                     <p className='valuess'>{value}</p>
+                     <select>
+                       <option className='option'>Publish</option>
+                       <option>other</option>
+                       <option>other</option>
+                       <option>other</option>
+                     </select>
+                     <p className='publish'>Published</p>
+                 </div>
+                  </div>}
+
+               
+
+                
+               
             </div>
     </div>
   )
