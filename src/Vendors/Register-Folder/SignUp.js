@@ -33,10 +33,10 @@ const SignUp = () => {
                 </div>
                 <p className='enter yourpassword'>Enter your password</p>
                 <input className='username email-address' type='text' placeholder='Password'></input><br></br>
-                <button className='signin-button button2'><Link to='/VendorSignup'>Continue</Link></button>
+                <Link to='/VendorSignup'><button className='signin-button button2'>Continue</button></Link>
                 <div className='have-sign'>
                 <p>Have an Account ?</p>
-                <p className='orange-sign'><a href='SignIn.js'>Sign in</a> </p>
+                <p className='orange-sign'><Link to='/SignIn'>Sign in</Link> </p>
                 </div>
                 </div>
                 </form>

@@ -1,10 +1,10 @@
-.chair{
+.malchair{
     position: absolute;
     z-index: 2;
     margin-left: 8%;
     top: 2.5%;
 }
-.exp{
+.malexp{
     margin-right: 9%;
     border-radius: 30px;
     height: 48px;
@@ -15,11 +15,11 @@
     background-color: #DA3E31;
     border: none;
 }
-.md{
+.malmd{
     height: 141px;
     background-color: #103D37;
 }
-.off{
+.maloff{
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -27,36 +27,36 @@
     margin-left: 20%;
     margin-top: 3%;
 }
-.tex{
+.maltex{
     text-align: center;
     margin-top: 35px;
 }
-.up{
+.malup{
     font-size: 1vw;
     margin-left: 25%;
     margin-top: 20%;
 }
-.s60{
+.mals60{
     font-size: 3vw;
     font-weight: 700;
     margin-top: -30%;
     margin-left: 20%;
 }
-.per{
+.malper{
     font-size: 0.8vw;
     margin-left: 3%;
 }
-.cen{
+.malcen{
     margin-top: -12px;
 }
-.of{
+.malof{
     margin-top: -20px;
 }
-.mrww{
+.malmrww{
     color: #CDD454;
     font-size: 12px;
 }
-.gdap{
+.malgdap{
     color: white;
     font-weight: 700;
     font-size: 22px;
