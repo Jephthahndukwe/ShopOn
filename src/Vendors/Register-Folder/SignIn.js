@@ -30,7 +30,7 @@ const SignIn  = () => {
                 <p className='enter-pass'>Enter your Password</p>
                 <input className='pass' type='password' placeholder='Username or email address'></input>
                 <p className='forgot'>Forgot Password</p>
-                <button className='signin-button'>Sign in</button>
+                <Link to='/SignUp'> <button className='signin-button'>Sign in</button></Link>
                 <p className='or'>OR</p>
                 <div className='image3'>
                  <img src={Img3} className='img3'/>

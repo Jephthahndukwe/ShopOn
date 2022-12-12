@@ -27,6 +27,7 @@
  position: absolute;
  top: 40px;
  /* right: 451px; */
+ 
  bottom: 80px;
  height: 550px;
  overflow: hidden;
@@ -227,6 +228,9 @@ margin-left: -20%;
     color: black;
     text-decoration: none;
 }
+.button2 a{
+    color: white;
+}
 .storepage{
     font-weight: 500;
     font-size: 14px;
@@ -347,7 +351,7 @@ margin-top: -35px;
 }
 .signUploaded .uploadedsignImg {
     width: 27.4%;
-    height: 16.4%;
+    height: 17%;
     position: absolute;
     margin-top: -18.5%;
     margin-left: 4.4%;
@@ -358,14 +362,15 @@ margin-top: -35px;
 }
 .signUploaded2 .uploadedsignImg2 {
     width: 27.4%;
-    height: 16.5%;
+    height: 17%;
     position: absolute;
     margin-top: -10%;
     margin-left: -34%;
     border-radius: 12px;
 }
-
-
+.ven-button{
+    margin-top: +27px;
+}
 
 /* STATE FORM */
 .fifty-percent{
@@ -374,4 +379,92 @@ margin-top: -35px;
     width: 166.5px;
     border-radius: 9px; 
     font-stretch: normal;
+}
+.country{
+    margin-top: 35px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.state{
+    margin-top: 35px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.Whatsapp{
+    margin-top: 35px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.select-country{
+    padding: 12px;
+    padding-left: 13px;
+    padding-right: 180px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+.Select-state{
+    padding: 12px;
+    padding-left: 13px;
+    padding-right: 180px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+.Whatsapp-phone-number{
+    /* margin-bottom: 10px; */
+    padding: 12px;
+    padding-left: 13px;
+    padding-right: 180px;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+.Do-you-to-display{
+    margin-bottom: 35px;
+    margin-top: 3px;
+}
+
+/* BANK FORM */
+.working-day{
+    font-size: 11px;
+    margin-top: 5px;
+    font-size: 500;
+}
+.account-number{
+    margin-bottom: 45px;
+}
+.zero{
+    font-weight: 1000;
+}
+.seventy-five{
+    width: 249.75px;
+}
+.button4{
+    padding-left: 147px;
+    padding-right: 147px;
+}
+
+/* LAST FORM */
+.hundred{
+    width: 330px;
+}
+.you-are-now{
+    font-size: 12px;
+    /* font-weight: 600; */
+}
+.bre{
+    text-align: center;
+}
+.to-sell-like{
+    font-size: 12px;
+    /* font-weight: 600; */
+    text-align: center;
+}
+.color-last{
+    width: 320px;
+}
+.last-zero{
+    margin-left: 330px;
+}
+.button3{
+    padding-left: 111px;
+    padding-right: 111px;
 }

@@ -98,7 +98,7 @@ const VendorSignup = () => {
                 </div>
                 </div>
 
-                <button className='signin-button button2'><Link to='/Stateform'> Continue</Link></button>
+                <Link to='/Stateform'> <button className='signin-button button2 ven-button'>Continue</button></Link>
                 <div className='have-sign'>
                 <p>Have an Account ?</p>
                 <p className='orange-sign'><a href='SignIn.js'>Sign in</a> </p>

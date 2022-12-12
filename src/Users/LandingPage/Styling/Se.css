@@ -1,19 +1,19 @@
-.carr{
+.malcarr{
     width: 323px;
     height: 237px;
     margin: 30px;
 }
-.nos{
+.malnos{
     height: 33%;
     color: white;
     text-align: center;
     margin-top: 49%;
     background-image: linear-gradient(transparent, 0%, rgba(0, 0, 0, 0.637));
 }
-.st{
+.malst{
     display: none;
 }
-.car:hover .st{
+.malcar:hover .st{
     display: block;
 }
 /* @media (prefers-reduced-motion: no-preference) {
@@ -29,16 +29,16 @@
       transform: rotate(-10deg);
     }
   } */
-.overf{
+.maloverf{
     overflow: auto;
 }
-.overf::-webkit-scrollbar{
+.maloverf::-webkit-scrollbar{
     display: none;
 }
-.fic{
+.malfic{
     width: 180vw;
 }
-.seag{
+.malseag{
     font-weight: 700;
     font-size: 36px;
 }
