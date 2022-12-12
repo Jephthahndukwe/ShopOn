@@ -8,22 +8,26 @@ import SignUp from './Vendors/Register-Folder/SignUp';
 import Stateform from './Vendors/Register-Folder/Stateform';
 import VendorSignup from './Vendors/Register-Folder/VendorSignup';
 import Sidenav from './Vendors/dashboard/Sidenav';
-
+import Bankform from './Vendors/Register-Folder/Bankform';
+import Lastform from './Vendors/Register-Folder/Lastform';
 
 function App() {
   return (
     <>
-    {/* <SignIn/> */}
-    {/* <SignUp/> */}
-    {/* <VendorSignup/> */}
-    {/* <Stateform/> */}
       <Router>
         {/* <Sidenav/> */}
+        {/* <Bankform/> */}
+        {/* <Stateform/> */}
+        {/* <SignUp/> */}
+        {/* <VendorSignup/> */}
+        {/* <Lastform/> */}
         <Routes>
-          <Route path='/' element={<SignUp/>} />
+        <Route path='/' element={<SignUp/>} />
+          <Route path='/SignIn' element={<SignIn/>}/>
           <Route path='/VendorSignup' element={<VendorSignup/>}/>
           <Route path='/Stateform' element={<Stateform/>}/>
-          {/* <Route path='/SignUp' element={<SignUp/>} /> */}
+          <Route path='/Bankform' element={<Bankform/>}/>
+          <Route path='/Lastform' element={<Lastform/>}/>
           {/* <Route path='/' element={<Topnav/>} /> */}
           {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
           {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
