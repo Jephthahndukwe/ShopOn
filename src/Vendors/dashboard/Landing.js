@@ -1,13 +1,14 @@
 import React from 'react'
-import '../Stylings/Landingpage.css'
+import '../Stylings/Landing.css'
 import oval from './img/Ovaloval.png'
 import path from './img/Pathpath.png'
 import {HiOutlineShoppingBag} from 'react-icons/hi'
 import {IoMdContacts} from 'react-icons/io'
 import {TbMoonStars} from 'react-icons/tb'
+import {TbWallet} from 'react-icons/tb'
 import card2 from './img/Card 2.png'
 
-const Landingpage = () => {
+const Landing = () => {
   return (
     <>
       <div className='landingpage-container'>
@@ -48,7 +49,7 @@ const Landingpage = () => {
           <div className='card2'>
             <div className='sales'>
               <div className='top'>
-                <div className='top-icon color'><TbMoonStars/></div>
+                <div className='top-icon moon'><TbMoonStars/></div>
                 <div className='top-select'>
                   <select>
                     <option>This Week</option>
@@ -67,7 +68,7 @@ const Landingpage = () => {
                 </div>
                 <div className='volume'>
                   <p className='text'>Volume</p>
-                  <p className='zero'>0</p>
+                  <p className='zeros'>0</p>
                 </div>
               </div>
             </div>
@@ -117,13 +118,13 @@ const Landingpage = () => {
               <div className='complete-bottom'>
                 <div className='allorder'>
                   <p className='orders'>All orders</p>
-                  <p className='zero'>0</p>
+                  <p className='zeros'>0</p>
                 </div>
-                <div className='pending'><p>Pending</p><p className='zero'>0</p></div>
+                <div className='pendings'><p>Pending</p><p className='zeros'>0</p></div>
                 <div className='completed'>
                   <p>Completed</p>
                   <div className='complete-value'>
-                    <p className='custom-zero'>0</p><p>+0.00%</p>
+                    <p className='custom-zero'>0</p><p className='percent'>+0.00%</p>
                   </div>
                 </div>
               </div>
@@ -135,7 +136,55 @@ const Landingpage = () => {
           <div className='graph'>
               <div className='retention'>
               <p className='client'>Client Retention</p>
+              <div className='key'>
+                <div className='key1'>
+                <div className='violet-key'></div>
+                <p className='new-client'>New Clients</p>
+                </div>
+                <div className='key2'>
+                <div className='red-key'></div>
+                <p className='retained-client'>Retained Clients</p>
+                </div>
               </div>
+              <div className='chart'>Graph Space</div>
+              </div>
+          </div>
+
+          <div className='conclusion'>
+            <div className='products'>
+              <p className='product-orders'>Products orders</p>
+            </div>
+            <div className='summary'>
+              <div className='summarys'>
+                <div className='summary-wallet'><TbWallet className='summary-icon'/></div>
+                <div className='summary-bottom'>
+                  <div className='allproducts'>
+                    <p className='summary-active'>All products</p>
+                      <div className='summary-product'>
+                        <p className='summary-zero'>0</p>
+                        <p className='summary-percent'>+0.00%</p>
+                      </div>
+                  </div>
+                  <div className='summary-active'>
+                    <p className='summary-active'>Active</p>
+                    <div className='summary-product'>
+                        <p className='summary-zero'>0</p>
+                        <p className='summary-percent'>+0.00%</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='recent'>
+              <div className='recents'>
+                <p className='recent-order'>Recent Orders</p>
+
+                <div className='recent-bottom'>
+                  <div className='recent-item'></div>
+                  <div className='status'></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -143,4 +192,4 @@ const Landingpage = () => {
   )
 }
 
-export default Landingpage
+export default Landing;

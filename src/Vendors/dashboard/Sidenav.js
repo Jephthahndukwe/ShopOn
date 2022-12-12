@@ -13,12 +13,8 @@ import Logo1 from './img/S.png'
 import Sidebar from './Sidebar'
 import { Link } from 'react-router-dom'
 
-const Sidenav = () => {
-    const [display, setDisplay] = useState(true)
-    
-    const menuToggle = () =>{
-        setDisplay(!display)
-    }
+const Sidenav = (props) => {
+ 
   return (
     <>
         {/* {display && <Sidebar/>} */}
@@ -27,10 +23,10 @@ const Sidenav = () => {
                 <div className='logo'><img src={Logo1}/></div>
                 <div className='menu-items'>
                 <div className='menu1'>
-                    <RiMenuFoldLine onClick={menuToggle}/>
+                    <RiMenuFoldLine />
                 </div>
                 <div className='dashboard1'>
-                    <RiDashboardFill/>
+                   <Link to='/' style={{textDecoration: 'none', color: 'inherit'}}><RiDashboardFill/></Link> 
                 </div>
                 <div className='shopping'>
                     <MdOutlineShoppingBag/>

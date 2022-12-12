@@ -4,7 +4,7 @@ import {HiBell} from 'react-icons/hi'
 import {MdImage} from 'react-icons/md'
 import {AiOutlineHome} from 'react-icons/ai'
 import Sidenav from '../dashboard/Sidenav'
-import Landingpage from './Landingpage'
+import Landing from './Landing'
 
 const Topnav = () => {
   return (
@@ -34,7 +34,7 @@ const Topnav = () => {
             <AiOutlineHome/>
             </div>
         </div>
-        <Landingpage/>
+        <Landing/>
     </>
   )
 }

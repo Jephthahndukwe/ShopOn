@@ -314,4 +314,11 @@ span{
     color: #DA3E31;
 }
 
+.dashboard-active{
+    background-color: #E9672B;
+    color: #FFFFFF;
+    padding: 7px;
+    border-radius: 5px;
+}
+
 
