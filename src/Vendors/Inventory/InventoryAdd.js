@@ -12,7 +12,7 @@ const InventoryAdd = () => {
     const [subCategory, setSubCategory] = useState("")
     const [sellingPrice, setSellingPrice] = useState("")
     const [costPrice, setCostPrice] = useState("")
-    const [quantity, setQuantity] = useState("")
+    const [quantity, setQuantity] = useState("") 
     const [orderType, setOrderType] = useState("")
     const [variationType, setVariationType] = useState("")
     const [expire, setExpire] = useState("")

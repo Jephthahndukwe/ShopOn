@@ -18,11 +18,11 @@ function App() {
     <>
       <Router>
         <Routes>          
-          <Route path='/' element={<ShopElectronics/>} />
+          {/* <Route path='/' element={<ShopElectronics/>} /> */}
           {/* <Route path='/' element={<SignUp/>} /> */}
-          <Route path='/VendorSignup' element={<VendorSignup/>}/>
-          <Route path='/Stateform' element={<Stateform/>}/>
-          <Route path='/' element={<Topnav/>}/>
+          {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
+          {/* <Route path='/Stateform' element={<Stateform/>}/> */}
+          {/* <Route path='/' element={<Topnav/>}/> */}
           {/* <Route path='/SignUp' element={<SignUp/>} /> */}
           {/* <Route path='/' element={<Topnav/>} /> */}
           {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
