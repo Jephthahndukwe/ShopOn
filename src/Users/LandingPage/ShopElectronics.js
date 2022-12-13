@@ -6,7 +6,7 @@ import gucci from "../LandingPage/Images/gucci.svg"
 import pc from "../LandingPage/Images/pc.svg"
 import friday from "../LandingPage/Images/friday.svg"
 import fruits from "../LandingPage/Images/fruits.svg"
-import "../Styling/Se.css"
+import "../LandingPage/Styling/Se.css"
 import GreatDesign from './GreatDesign'
 
 
