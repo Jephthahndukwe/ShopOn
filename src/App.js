@@ -20,7 +20,6 @@ function App() {
   return (
     <>
       <Router>
-        <Sidenav/>
         <Routes>          
           {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
 

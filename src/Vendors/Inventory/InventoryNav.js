@@ -6,6 +6,7 @@ import icon from '../Inventory/img/icon.png'
 import Inventory1 from './Inventory1'
 import { Link } from 'react-router-dom'
 import InventoryNav1 from './InventoryNav1'
+import Sidenav from '../dashboard/Sidenav'
 
 
 const InventoryNav = () => {
@@ -15,6 +16,8 @@ const [stock, setStock] = useState("₦922,901,000.00")
 
 
   return (
+    <>
+    <Sidenav/>
     <div className='body'>
         <div className='header'>
         <InventoryNav1/>
@@ -72,6 +75,7 @@ const [stock, setStock] = useState("₦922,901,000.00")
         </div>
         </div>
     </div>
+    </>
   )
 }
 

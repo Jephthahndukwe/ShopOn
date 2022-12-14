@@ -6,9 +6,12 @@ import pie from '../Inventory/img/fi_pie-chart.png'
 import eye from '../Inventory/img/fi_eye.png'
 import bag from '../Inventory/img/Bag.png'
 import InventoryDetails1 from './InventoryDetails1'
+import Sidenav from '../dashboard/Sidenav'
 
 const InventoryDetails = () => {
   return (
+    <>
+    <Sidenav/>
     <div className='body'>
         <InventoryNav1/>
         <div className='inventoryDetails'>
@@ -140,6 +143,7 @@ const InventoryDetails = () => {
         <InventoryDetails1/>
         </div>
     </div>
+    </>
   )
 }
 
