@@ -14,11 +14,13 @@ import InventoryDetails from './Vendors/Inventory/InventoryDetails';
 import ShopElectronics from './Users/LandingPage/ShopElectronics';
 import Landingpage from './Vendors/dashboard/Landing';
 import ProductDetail from './Users/Shop/ProductDetail/ProductDetail';
+import Hot_sale from './Users/LandingPage/Hot_Sale'
 
 
 function App() {
   return (
     <>
+      <Hot_sale/>
       <Router>
         <Routes>          
           {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
@@ -35,10 +37,10 @@ function App() {
           {/* <Route path='/Stateform' element={<Stateform/>}/> */}
           {/* <Route path='/Bankform' element={<Bankform/>}/> */}
           {/* <Route path='/Lastform' element={<Lastform/>}/> */}
-          <Route path='/' element={<Topnav/>}/>
-          <Route path="/InventoryNav" element={<InventoryNav/>}/>
-          <Route path='/InventoryAdd' element={<InventoryAdd/>} />
-          <Route path='/InventoryDetails' element={<InventoryDetails/>}/>
+          {/* <Route path='/' element={<Topnav/>}/> */}
+          {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
+          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
+          {/* <Route path='/InventoryDetails' element={<InventoryDetails/>}/> */}
         </Routes>
       </Router>
     </>
