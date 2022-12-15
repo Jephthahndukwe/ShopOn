@@ -39,10 +39,10 @@ const Hot_Sale = () => {
                 <div className='tony col-md-3'>
                     <div className='flash-sales'>
                         <div>Flash Sale</div>
-                            <div className='main-img'>
+                            <div className='img-fluid'>
                                 <h5 className='lyon'>-50%</h5>
-                            <img src={main} alt='main'/>
-                        </div>
+                                <img src={main} alt='main'/>
+                            </div>
                         <div className='days'>
                             <h4 className='tony-num'>06 : 12 : 50 : 48</h4>
                             <h4 className='tony-days'>Day : Hrs : Min : Sec</h4>
@@ -274,12 +274,12 @@ const Hot_Sale = () => {
                 </div> 
             </div>
             <div className='row'>
-                 <div className='tony-chair col-md-6'>
-                        <img src={table1} className="tony-chair1 img-fluid" />
-                        <h6 className='tony-collection'>2020’s NEW COLLECTION</h6>
-                        <h3 className='tony-comfort'>Comfortable Chair</h3>
-                        <button className='Tony-explore'>Explore Now</button>
-                        <img src={table2} className="tony-chair2 img-fluid" />
+                <div className='tony-chair col-md-6'>
+                    <img src={table1} className="tony-chair1 img-fluid" />
+                    <h6 className='tony-collection'>2020’s NEW COLLECTION</h6>
+                    <h3 className='tony-comfort'>Comfortable Chair</h3>
+                    <button className='Tony-explore'>Explore Now</button>
+                    <img src={table2} className="tony-chair2 img-fluid" />
                 </div>
                 <div className='tony-lamb col-md-6'>
                     <img src={lamb1} className="tony-lamb1 img-fluid" />
