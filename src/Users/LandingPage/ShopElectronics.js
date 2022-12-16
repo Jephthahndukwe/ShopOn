@@ -13,7 +13,6 @@ import GreatDesign from './GreatDesign'
 const ShopElectronics = () => {
   return (
     <>
-        <GreatDesign/>
         <div className='container mt-5'>
             <p className='text-muted malseag'>Shop electronics and gadgets</p>
             <div className='maloverf'>
