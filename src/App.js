@@ -14,6 +14,7 @@ import ShopElectronics from './Users/LandingPage/ShopElectronics';
 import Landingpage from './Vendors/dashboard/Landing';
 import ProductDetail from './Users/Shop/ProductDetail/ProductDetail';
 import Hot_Sale from './Users/LandingPage/Hot_Sale';
+import Test from './Users/LandingPage/Test';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <>
       <Router>
         <Routes>          
-          <Route path='/' element={<Hot_Sale/>} />
+          <Route path='/' element={<Test/>} />
           {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}
           
