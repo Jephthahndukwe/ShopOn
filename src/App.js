@@ -35,7 +35,7 @@ function App() {
           {/* <Route path='/Stateform' element={<Stateform/>}/> */}
           {/* <Route path='/Bankform' element={<Bankform/>}/> */}
           {/* <Route path='/Lastform' element={<Lastform/>}/> */}
-          {/* <Route path='/' element={<Topnav/>}/> */}
+          <Route path='/' element={<Topnav/>}/>
           <Route path="/InventoryNav" element={<InventoryNav/>}/>
           <Route path='/InventoryAdd' element={<InventoryAdd/>} />
           <Route path='/InventoryDetails' element={<InventoryDetails/>}/>
