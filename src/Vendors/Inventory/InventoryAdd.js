@@ -3,6 +3,9 @@ import '../Stylings/Inventory.css'
 import { FaBell, FaHome, FaCloudUploadAlt, FaTrash, FaPlus } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import img from '../Inventory/img/Image.png'
+import pro from '../Inventory/img/profile 1.png'
+import InventoryNav1 from './InventoryNav1'
+import Sidenav from '../dashboard/Sidenav'
 
 const InventoryAdd = () => {
     const [productName, setProductName] = useState("")
@@ -10,24 +13,17 @@ const InventoryAdd = () => {
     const [subCategory, setSubCategory] = useState("")
     const [sellingPrice, setSellingPrice] = useState("")
     const [costPrice, setCostPrice] = useState("")
-    const [quantity, setQuantity] = useState()
+    const [quantity, setQuantity] = useState("") 
     const [orderType, setOrderType] = useState("")
     const [variationType, setVariationType] = useState("")
+    const [expire, setExpire] = useState("")
+    const [message, setMessage] = useState("")
+    const [longMessage, setLongMessage] = useState("")
+    const [specification, setSpecification] = useState("")
+    const [discount, setDiscount] = useState("")
+    const [date, setDate] = useState("")
+    const [time, setTime] = useState("")
 
-
-    const [post, setPost] = useState([
-        {
-        name: "",
-        stack: "",
-        images: img,
-        id: 1,
-        time: Date.now(),
-        }
-    ])
-
-const [image, setImage] = useState();
-const [newStack, setNewStack] = useState("")
-const [newName, setNewName] = useState("")
 
     const [selectedImages, setSelectedImages] = useState([]);
     const [additionalImages, setAdditionalImages] = useState([])
@@ -57,26 +53,10 @@ const [newName, setNewName] = useState("")
     };
 
   return (
+    <>
+    <Sidenav/>
     <div className='body'>
-        <div className='header'>
-            <nav>
-                <h1>Inventory</h1>
-                <select className='select'>
-                    <option>TEE Gadgets</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                    <option>Others</option>
-                </select>
-                    <FaBell className='bells'/>
-            </nav>
-            <div className='head'>
-                <Link to='/'><p><FaHome className='home'/></p></Link>
-                <p>/</p>
-                <p>Inventory</p>
-            </div>
-        </div>
+        <InventoryNav1/>
         <div className='newInventory'>
             <div className='newInvent'>
             <h3>New Inventory Item</h3>
@@ -100,7 +80,7 @@ const [newName, setNewName] = useState("")
                             <span>Upload Image</span>
                             <input type='file' name='images' onChange={onSelectFile} />
                         </label>
-                        <p>Upload a cover image for your product.<br/> File Format jpeg, png Recommened Size 600x600 (1:1)</p>
+                        <p>Upload a cover image for your product.<br/> File Format jpeg, png Recommed Size 600x600 (1:1)</p>
                     </div>
                     <div className='imgUploaded'>
                         {selectedImages && 
@@ -161,9 +141,9 @@ const [newName, setNewName] = useState("")
                 </div>
                 <div className='add-box2'>
                     <div className='form'>
-                        <input type='text' value={productName} placeholder='Product Name'/>
+                        <input type='text' value={productName} placeholder='Product Name' onChange={(e) => setProductName(e.target.value)}  className='input'/>
                         <label>
-                        <select className='select2'>
+                        <select className='select2' value={productCategory} onChange={(e) => setProductCategory(e.target.value)}>
                             <option>Search Product Category</option>
                             <option>other</option>
                             <option>other</option>
@@ -172,7 +152,7 @@ const [newName, setNewName] = useState("")
                         <FaPlus className='Fplus'/>
                         </label>
                         <label>
-                        <select className='select3'>
+                        <select className='select3' value={subCategory} onChange={(e) => setSubCategory(e.target.value)}>
                             <option>Search product sub category</option>
                             <option>other</option>
                             <option>other</option>
@@ -181,26 +161,57 @@ const [newName, setNewName] = useState("")
                         <FaPlus className='Fplus'/>
                         </label>
                         <div className='inputs'>
-                            <input type='text' value={sellingPrice} placeholder='Selling Price'/>
-                            <input type='text' value={costPrice} placeholder='Cost Price'/>
+                            <input type='text' value={sellingPrice} placeholder='Selling Price' onChange={(e) => setSellingPrice(e.target.value)} className='input'/>
+                            <input type='text' value={costPrice} placeholder='Cost Price' onChange={(e) => setCostPrice(e.target.value)} className='input'/>
                         </div>
-                        <input type='number' value={quantity} placeholder='Quantity in Stock' className='quantity'/>
-                        <select>
+                        <input type='number' value={quantity} placeholder='Quantity in Stock' className='quantity input' onChange={(e) => setQuantity(e.target.value)} />
+                        <select value={orderType} onChange={(e) => setOrderType(e.target.value)}>
                             <option>Order Type</option>
-                            <option>other</option>
-                            <option>other</option>
-                            <option>other</option>
+                            <option>Home Delivery</option>
+                            <option>Pick Up</option>
                         </select>
-                        <select>
+                        <select value={variationType} onChange={(e) => setVariationType(e.target.value)}>
                             <option>variation Type</option>
                             <option>other</option>
                             <option>other</option>
                             <option>other</option>
                         </select>
+                        <div className='expire'>
+                            <p>Expire Date</p>
+                            <p className='date'>Add Expiry Date</p>
+                        </div>
+
+                        <div className='form-2'>
+                            <textarea value={message} onChange={(e) => setMessage(e.target.value)} placeholder='Short Description' className='message'/>
+                            <label>
+                                <p>Product Long Description</p>
+                                <textarea value={longMessage} onChange={(e) => setLongMessage(e.target.value)} placeholder='Your text get here'/>
+                            </label>
+                            <label>
+                                <p>Add a long description for your product</p>
+                                <textarea value={specification} onChange={(e) => setSpecification(e.target.value)} placeholder='Specifications'/>
+                            </label>
+                            <div className='discount' value={discount} onChange={(e) => setDiscount(e.target.value)}>
+                                <p>Discount</p>
+                                <p className='adds'>Add Discount</p>
+                                <h4>Input value %{discount}</h4>
+                            </div>
+                            <div className='time'>
+                                <p>Discount until</p>
+                                <input type='date' value='2022-12-12'/>
+                                <input type='time' value='12:00' className='timer' />
+                            </div>
+                            <div className='schedule'>
+                                <p>Schedule publish</p>
+                                <input type='date' value='2022-12-12'/>
+                                <input type='time' value='12:00' className='timer' />
+                            </div>
+                        </div>
                     </div>
             </div>
         </div>
     </div>
+    </>
   )
 }
 

@@ -5,15 +5,16 @@ import Img3 from '../Register-Folder/Ragister-Images/google.png'
 import Img4 from '../Register-Folder/Ragister-Images/Facebook.png'
 import Img5 from '../Register-Folder/Ragister-Images/apple .png'
 import '../Stylings/Register.css'
+import { Link } from 'react-router-dom'
 
 const SignIn  = () => {
-  
+
 
   return (
     <>
          <div className='signup'>
           <div className='two-images'>
-            <img src={Img2} className='img2'/>
+            <img src={Img2} className='img2 '/>
             <img src={Images} className='img'/>
             </div>
                 <div className='inner-container'>
@@ -21,7 +22,7 @@ const SignIn  = () => {
                 <form>
                 <div className='no-account'>
                 <p>No Account ?</p>
-                <p className='sign'>Sign Up</p>
+                <p className='sign'><Link to='/SignUp'>Sign Up</Link></p>
                 </div>
                 <h1 className='vendor'>Sign in as vendor</h1>
                 <p className='enter'>Enter your username or email address</p>
@@ -29,7 +30,7 @@ const SignIn  = () => {
                 <p className='enter-pass'>Enter your Password</p>
                 <input className='pass' type='password' placeholder='Username or email address'></input>
                 <p className='forgot'>Forgot Password</p>
-                <button className='signin-button'>Sign in</button>
+                <Link to='/SignUp'> <button className='signin-button'>Sign in</button></Link>
                 <p className='or'>OR</p>
                 <div className='image3'>
                  <img src={Img3} className='img3'/>

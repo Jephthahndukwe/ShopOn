@@ -3,12 +3,13 @@ import '../Stylings/Dashboard.css'
 import {HiBell} from 'react-icons/hi'
 import {MdImage} from 'react-icons/md'
 import {AiOutlineHome} from 'react-icons/ai'
-import Sidebar from '../dashboard/Sidebar'
+import Sidenav from '../dashboard/Sidenav'
+import Landing from './Landing'
 
 const Topnav = () => {
   return (
     <>
-        <Sidebar/>
+        <Sidenav/>
         <div className='topnav-container'>
             <div className='menu'>
                 <div className='dashboard'>
@@ -25,7 +26,7 @@ const Topnav = () => {
                     </select>
                         <HiBell className='bell'/>
                         <div className='profile-img'>
-                            <MdImage className='img'/>
+                            <MdImage className='image'/>
                         </div>
                 </div>
             </div>
@@ -33,6 +34,7 @@ const Topnav = () => {
             <AiOutlineHome/>
             </div>
         </div>
+        <Landing/>
     </>
   )
 }
