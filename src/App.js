@@ -22,17 +22,28 @@ import OurFeature from './Users/LandingPage/OurFeature';
 function App() {
   return (
     <>
-    {/* <SignUp/>
+    <Hot_Sale/>
       <Router>
-        <Routes>
-          {/* <Route path='/SignUp' element={<SignUp/>} /> */}
-          {/* <Route path='/' element={<Topnav/>} /> */}
-          {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
-          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
-        {/* </Routes> */}
-      {/* </Router> */} 
-      <OurFeature/>
+        <Routes>          
+          <Route path='/' element={<Test/>} />
+          {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
+         {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}          
 
+
+
+
+        {/* <Route path='/' element={<SignUp/>} /> */}
+          {/* <Route path='/SignIn' element={<SignIn/>}/> */}
+          {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
+          {/* <Route path='/Stateform' element={<Stateform/>}/> */}
+          {/* <Route path='/Bankform' element={<Bankform/>}/> */}
+          {/* <Route path='/Lastform' element={<Lastform/>}/> */}
+          <Route path='/' element={<Topnav/>}/>
+          <Route path="/InventoryNav" element={<InventoryNav/>}/>
+          <Route path='/InventoryAdd' element={<InventoryAdd/>} />
+          <Route path='/InventoryDetails' element={<InventoryDetails/>}/>
+        </Routes>
+      </Router>
     </>
   );
 }
