@@ -20,6 +20,7 @@ import Test from './Users/LandingPage/Test';
 function App() {
   return (
     <>
+    <Hot_Sale/>
       <Router>
         <Routes>          
           <Route path='/' element={<Test/>} />
