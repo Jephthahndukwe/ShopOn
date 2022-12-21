@@ -16,6 +16,7 @@ import ProductDetail from './Users/Shop/ProductDetail/ProductDetail';
 import Hot_Sale from './Users/LandingPage/Hot_Sale';
 import Test from './Users/LandingPage/Test';
 import OurFeature from './Users/LandingPage/OurFeature';
+import TopCategories from './TopCategories';
 
 
 

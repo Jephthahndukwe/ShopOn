@@ -1,0 +1,27 @@
+[
+    {
+        "id": "1",
+        "description": "Name of store",
+        "image": "img/Rectangle 550 (3).png"
+    },
+    {
+        "id": "2",
+        "description": "Name of store",
+        "image": "img/Rectangle 550 (4).png"
+    },
+    {
+        "id": "3",
+        "description": "Name of store",
+        "image": "img/Rectangle 550 (5).png"
+    },
+    {
+        "id": "4",
+        "description": "Name of store",
+        "image": "img/Rectangle 550 (6).png"
+    },
+    {
+        "id": "5",
+        "description": "Name of store",
+        "image": "img/Rectangle 550 (7).png"
+    }
+]
