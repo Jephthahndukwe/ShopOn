@@ -22,17 +22,12 @@ import OurFeature from './Users/LandingPage/OurFeature';
 function App() {
   return (
     <>
-    <Hot_Sale/>
       <Router>
         <Routes>          
           <Route path='/' element={<Test/>} />
           {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
-         {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}          
-
-
-
-
-        {/* <Route path='/' element={<SignUp/>} /> */}
+          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}          
+          {/* <Route path='/' element={<SignUp/>} /> */}
           {/* <Route path='/SignIn' element={<SignIn/>}/> */}
           {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
           {/* <Route path='/Stateform' element={<Stateform/>}/> */}
