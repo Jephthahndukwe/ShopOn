@@ -1,12 +1,12 @@
 import React from 'react'
-import '../Stylings/Landing.css'
-import oval from './img/Ovaloval.png'
-import path from './img/Pathpath.png'
+import '../../Styles/Vendor/Landing.css'
+import oval from '../../Assets/Images/Ovaloval.png'
+import path from '../../Assets/Images/Pathpath.png'
 import {HiOutlineShoppingBag} from 'react-icons/hi'
 import {IoMdContacts} from 'react-icons/io'
 import {TbMoonStars} from 'react-icons/tb'
 import {TbWallet} from 'react-icons/tb'
-import card2 from './img/Card 2.png'
+import card2 from '../../Assets/Images/Card 2.png'
 
 const Landing = () => {
   return (

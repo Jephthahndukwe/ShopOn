@@ -1,6 +1,6 @@
 import React from 'react'
-import chair from "../LandingPage/Images/chair.svg"
-import "../LandingPage/Styling/Gdesign.css"
+import chair from '../../Assets/Images/chair.svg'
+import '../../Styles/User/Gdesign.css'
 
 const GreatDesign = () => {
   return (

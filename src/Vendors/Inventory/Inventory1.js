@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import '../Stylings/Inventory.css'
+import '../../Styles/Vendor/Inventory.css'
 import { Link } from 'react-router-dom'
 import {  FaChevronDown, FaSearch, FaFilter, FaCalendarAlt, FaLocationArrow, FaPlus } from 'react-icons/fa'
-import sort from '../Inventory/img/sort.png'
-import test from '../Inventory/img/test.png'
+import sort from '../../Assets/Images/sort.png'
+import test from '../../Assets/Images/test.png'
 
 const Inventory1 = () => {
     const [productImg, setProductImg] = useState("")

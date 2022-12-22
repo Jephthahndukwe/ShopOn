@@ -4,6 +4,7 @@ import GreatDesign from './GreatDesign'
 import HolidaySale from './HolidaySale'
 import NewArrival from './NewArrival'
 import ShopElectronics from './ShopElectronics'
+import OurFeature from './OurFeature'
 
 const Test = () => {
   return (
@@ -13,6 +14,7 @@ const Test = () => {
         <ShopElectronics/>
         <NewArrival/>
         <HolidaySale/>
+        <OurFeature/>
     </>
   )
 }

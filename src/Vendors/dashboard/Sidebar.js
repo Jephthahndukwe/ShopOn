@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Stylings/Dashboard.css'
+import '../../Styles/Vendor/Dashboard.css'
 import {RiMenuFoldLine} from 'react-icons/ri'
 import {RiDashboardFill} from 'react-icons/ri'
 import {IoMdContacts} from 'react-icons/io'
@@ -10,7 +10,7 @@ import {FiSettings} from 'react-icons/fi'
 import {BiSupport} from 'react-icons/bi'
 import {MdOutlineShoppingBag} from 'react-icons/md'
 import { Link } from 'react-router-dom'
-import Logo from './img/SHOPON.png'
+import Logo from '../../Assets/Images/SHOPON.png'
 
 const Sidebar = () => {
   return (

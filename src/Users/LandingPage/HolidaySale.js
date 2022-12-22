@@ -1,8 +1,8 @@
 import React from 'react'
-import hchair from "../LandingPage/Images/hchair.png"
-import cchair from "../LandingPage/Images/cchair.png"
-import orange from "../LandingPage/Images/orangediv.png"
-import "../LandingPage/Styling/HolidaySale.css"
+import hchair from "../../Assets/Images/hchair.png"
+import cchair from "../../Assets/Images/cchair.png"
+import orange from "../../Assets/Images/orangediv.png"
+import "../../Styles/User/HolidaySale.css"
 
 const HolidaySale = () => {
   return (

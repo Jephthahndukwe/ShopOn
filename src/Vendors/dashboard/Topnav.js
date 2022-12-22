@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Stylings/Dashboard.css'
+import '../../Styles/Vendor/Dashboard.css'
 import {HiBell} from 'react-icons/hi'
 import {MdImage} from 'react-icons/md'
 import {AiOutlineHome} from 'react-icons/ai'
