@@ -1,5 +1,5 @@
 import React from 'react'
-import './Logo.css'
+import '../../Styles/User/Logo.css'
 import Rectangle159 from './Image/Rectangle 159.png'
 import Rectangle163 from './Image/Rectangle 163.png'
 import Rectangle160 from './Image/Rectangle 160.png'

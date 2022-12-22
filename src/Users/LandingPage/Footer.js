@@ -1,5 +1,5 @@
 import React from 'react'
-import './Footer.css'
+import '../../Styles/User/Footer.css'
 import SHOPON from './Image/SHOPON.png'
 import Rectangle49 from './Image/Rectangle 49.png'
 import facebooklogo from './Image/facebooklogo.png'

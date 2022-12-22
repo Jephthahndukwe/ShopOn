@@ -1,11 +1,11 @@
 import React from 'react'
-import './Furniture.css'
+import '../../Styles/User/Furniture.css'
 import Rectangle280 from './Image/Rectangle 280.png'
 import Rectangle281 from './Image/Rectangle 281.png'
 import Rectangle282 from './Image/Rectangle 282.png'
 import Rectangle283 from './Image/Rectangle 283.png'
 import Rectangle284 from './Image/Rectangle 284.png'
-import Logo from './Logo'
+import Logo from '../LandingPage/Logo'
 
 const Furniture = () => {
   return (

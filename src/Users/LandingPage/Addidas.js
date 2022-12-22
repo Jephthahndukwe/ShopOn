@@ -1,11 +1,11 @@
 import React from 'react'
-import data from "./addidas.json"
-import "./Addidas.css"
-import dataluisvitton from './luisvitton.json'
-import './LuisVitton.css'
-import dataoraimo from './oraimo.json'
-import './oraimo.css'
-import Furniture from './Furniture'
+import dataAddidas from '../LandingPage/addidas.json'
+import '../../Styles/User/Addidas.css'
+import dataluisvitton from '../LandingPage/luisvitton.json'
+import '../../Styles/User/LuisVitton.css'
+import dataoraimo from '../LandingPage/oraimo.json'
+import '../../Styles/User/Oraimo.css'
+import Furniture from '../LandingPage/Furniture'
 
 const Addidas = () => {
   return (
@@ -13,7 +13,7 @@ const Addidas = () => {
       <div className='davidContainer2'>
         <div className='addidas'>Addidas</div>
         <div className='davidcard2'>
-          {data.map((el) =>(
+          {dataAddidas.map((el) =>(
             <div key={el.id}>
               <div className='davidimg2'>
                 <img className='davidimage2' src={el.image} />

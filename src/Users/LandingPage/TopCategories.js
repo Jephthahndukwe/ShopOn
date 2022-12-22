@@ -1,7 +1,7 @@
 import React from 'react'
-import "./TopCategories.css"
-import Addidas from "./Addidas"
-import data from "./topcategories.json"
+import '../../Styles/User/TopCategories.css'
+import Addidas from '../LandingPage/Addidas'
+import dataTop from '../LandingPage/topcategories.json'
 
 const TopCategories = () => {
   return (
@@ -9,7 +9,7 @@ const TopCategories = () => {
       <div className='davidcontainer'>
         <div className='davidtopCategories'>TopCategories</div>
         <div className='davidcard'>
-          {data.map((el) =>(
+          {dataTop.map((el) =>(
             <div key={el.id}>
               <div className='davidcardImage'>
                 <img src={el.image} />
