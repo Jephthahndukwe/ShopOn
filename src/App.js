@@ -15,6 +15,8 @@ import Landingpage from './Vendors/dashboard/Landing';
 import ProductDetail from './Users/Shop/ProductDetail/ProductDetail';
 import Hot_Sale from './Users/LandingPage/Hot_Sale';
 import Test from './Users/LandingPage/Test';
+import OurFeature from './Users/LandingPage/OurFeature';
+
 
 
 function App() {
@@ -22,14 +24,10 @@ function App() {
     <>
       <Router>
         <Routes>          
-          <Route path='/' element={<Test/>} />
+          <Route path='/' element={<Test/>}/>
           {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
-         {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}          
-
-
-
-
-        {/* <Route path='/' element={<SignUp/>} /> */}
+          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}          
+          {/* <Route path='/' element={<SignUp/>} /> */}
           {/* <Route path='/SignIn' element={<SignIn/>}/> */}
           {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
           {/* <Route path='/Stateform' element={<Stateform/>}/> */}
