@@ -5,6 +5,7 @@ import HolidaySale from './HolidaySale'
 import NewArrival from './NewArrival'
 import ShopElectronics from './ShopElectronics'
 import OurFeature from './OurFeature'
+import TopCategories from '../LandingPage/TopCategories'
 
 const Test = () => {
   return (
@@ -15,6 +16,7 @@ const Test = () => {
         <NewArrival/>
         <HolidaySale/>
         <OurFeature/>
+        <TopCategories/>
     </>
   )
 }
