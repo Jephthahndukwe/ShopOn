@@ -1,10 +1,10 @@
 import React from 'react'
-import Images from '../Register-Folder/Ragister-Images/Dashboard.png'
-import Img2 from '../Register-Folder/Ragister-Images/Group.png'
-import Img3 from '../Register-Folder/Ragister-Images/google.png'
-import Img4 from '../Register-Folder/Ragister-Images/Facebook.png'
-import Img5 from '../Register-Folder/Ragister-Images/apple .png'
-import '../Stylings/Register.css'
+import Images from '../../Assets/Images/Dashboard.png'
+import Img2 from '../../Assets/Images/Group.png'
+import Img3 from '../../Assets/Images/google.png'
+import Img4 from '../../Assets/Images/Facebook.png'
+import Img5 from '../../Assets/Images/apple .png'
+import '../../Styles/Vendor/Register.css'
 import { Link } from 'react-router-dom'
 
 const SignIn  = () => {

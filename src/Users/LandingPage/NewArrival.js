@@ -1,14 +1,14 @@
 import React from 'react'
-import gchair from "../LandingPage/Images/gchair.svg"
-import black from "../LandingPage/Images/black.jpg"
-import red from "../LandingPage/Images/red.png"
-import mirror from "../LandingPage/Images/mirror.svg"
-import clock from "../LandingPage/Images/clock.svg"
-import cabinet from "../LandingPage/Images/cabinet.svg"
-import bed from "../LandingPage/Images/bed.svg"
-import line from "../LandingPage/Images/Line.svg"
-import lin from "../LandingPage/Images/Lin.svg"
-import "../LandingPage/Styling/Narrival.css"
+import gchair from "../../Assets/Images/gchair.svg"
+import black from "../../Assets/Images/black.jpg"
+import red from "../../Assets/Images/red.png"
+import mirror from "../../Assets/Images/mirror.svg"
+import clock from "../../Assets/Images/clock.svg"
+import cabinet from "../../Assets/Images/cabinet.svg"
+import bed from "../../Assets/Images/bed.svg"
+import line from "../../Assets/Images/Line.svg"
+import lin from "../../Assets/Images/Lin.svg"
+import "../../Styles/User/Narrival.css"
 
 
 const NewArrival = () => {

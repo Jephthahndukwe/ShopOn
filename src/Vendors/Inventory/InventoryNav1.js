@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import '../Stylings/Inventory.css'
+import '../../Styles/Vendor/Inventory.css'
 import { Link } from 'react-router-dom'
-import pro from '../Inventory/img/profile 1.png'
+import pro from '../../Assets/Images/profile 1.png'
 import { FaBell, FaHome, FaCloudUploadAlt, FaTrash, FaPlus } from 'react-icons/fa'
 import {HiBell} from 'react-icons/hi'
 
