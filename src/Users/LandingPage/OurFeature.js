@@ -1,5 +1,5 @@
 import React from 'react'
-import '../LandingPage/Styling/OurFeature.css'
+import '../../Styles/User/OurFeature.css'
 import data from '../LandingPage/OurFeature.json'
 import {VscCircleLargeFilled} from 'react-icons/vsc'
 import img1 from '../LandingPage/Images/steph images/Vector.png'
