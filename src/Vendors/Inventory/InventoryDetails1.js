@@ -1,6 +1,6 @@
 import React from 'react'
 import {  FaChevronDown, FaSearch, FaFilter, FaCalendarAlt, FaLocationArrow, FaPlus } from 'react-icons/fa'
-import sort from '../Inventory/img/sort.png'
+import sort from '../../Assets/Images/sort.png'
 
 
 const InventoryDetails1 = () => {

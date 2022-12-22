@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Styling/Gdesign.css"
+import '../../Styles/User/Gdesign.css'
 import { FaPlane } from 'react-icons/fa'
 import { AiFillDollarCircle } from 'react-icons/ai'
 import { FaTag } from 'react-icons/fa'

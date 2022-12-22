@@ -1,14 +1,17 @@
 import React from 'react'
 import InventoryNav1 from './InventoryNav1'
-import copy from '../Inventory/img/u_copy-alt.png'
-import img from '../Inventory/img/image 1.png'
-import pie from '../Inventory/img/fi_pie-chart.png'
-import eye from '../Inventory/img/fi_eye.png'
-import bag from '../Inventory/img/Bag.png'
+import copy from '../../Assets/Images/u_copy-alt.png'
+import img from '../../Assets/Images/image 1.png'
+import pie from '../../Assets/Images/fi_pie-chart.png'
+import eye from '../../Assets/Images/fi_eye.png'
+import bag from '../../Assets/Images/Bag.png'
 import InventoryDetails1 from './InventoryDetails1'
+import Sidenav from '../dashboard/Sidenav'
 
 const InventoryDetails = () => {
   return (
+    <>
+    <Sidenav/>
     <div className='body'>
         <InventoryNav1/>
         <div className='inventoryDetails'>
@@ -140,6 +143,7 @@ const InventoryDetails = () => {
         <InventoryDetails1/>
         </div>
     </div>
+    </>
   )
 }
 

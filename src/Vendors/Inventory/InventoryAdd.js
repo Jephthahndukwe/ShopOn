@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
-import '../Stylings/Inventory.css'
+import '../../Styles/Vendor/Inventory.css'
 import { FaBell, FaHome, FaCloudUploadAlt, FaTrash, FaPlus } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import img from '../Inventory/img/Image.png'
-import pro from '../Inventory/img/profile 1.png'
+import img from '../../Assets/Images/Image.png'
+import pro from '../../Assets/Images/profile 1.png'
 import InventoryNav1 from './InventoryNav1'
+import Sidenav from '../dashboard/Sidenav'
 
 const InventoryAdd = () => {
     const [productName, setProductName] = useState("")
@@ -52,6 +53,8 @@ const InventoryAdd = () => {
     };
 
   return (
+    <>
+    <Sidenav/>
     <div className='body'>
         <InventoryNav1/>
         <div className='newInventory'>
@@ -208,6 +211,7 @@ const InventoryAdd = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 

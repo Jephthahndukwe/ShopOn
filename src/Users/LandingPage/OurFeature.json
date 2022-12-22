@@ -1,0 +1,73 @@
+[
+    {
+        "id":"1",
+        "colours":"black,blue,yellow,greeen,purple",
+        "name":" Eco 32 Led Television",
+        "price":"$120.50",
+        "image":"./image/image1.png"
+    },
+    {
+        "id":"2",
+        "colours":"",
+        "name":"Double Pocket Men Jacket",
+        "price":"$56",
+        "image":"./image/jacket.png"
+    },
+    {
+        "id":"3",
+        "colours":"",
+        "name":"Blender and Juicer",
+        "price":"$163",
+        "image":"./image/blender.png"
+    },
+    {
+        "id":"4",
+        "colours":"",
+        "name":"Iphone 13 218gb",
+        "price":"$45.20",
+        "image":"./image/iphone.png"
+    },
+    {
+        "id":"5",
+        "colours":"",
+        "name":"Kids Clothe",
+        "price":"$12",
+        "image":"./image/kids.png"
+    },
+    {
+        "id":"6",
+        "colours":"",
+        "name":"Lenovo Laptop",
+        "price":"$120",
+        "image":"./image/laptop.png"
+    },
+    {
+        "id":"7",
+        "colours":"",
+        "name":"Patterned Accent Chair",
+        "price":"$41.20",
+        "image":"./image/chair.png"
+    },
+    {
+        "id":"8",
+        "colours":"",
+        "name":"Bluetooth Device",
+        "price":"$10.14",
+        "image":"./image/airpod.png"
+    },
+    {
+        "id":"9",
+        "colours":"",
+        "name":"Female Heels Shoe",
+        "price":"$90.60",
+        "image":"./image/heels.png"
+    },
+    {
+        "id":"10",
+        "colours":"",
+        "name":"7kg Washing Machine",
+        "price":"$156.00",
+        "image":"./image/washingmachine.png"
+    }
+    
+]

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Img2 from '../Register-Folder/Ragister-Images/Group.png'
-import Images from '../Register-Folder/Ragister-Images/Dashboard.png'
+import Img2 from '../../Assets/Images/Group.png'
+import Images from '../../Assets/Images/Dashboard.png'
 import { FaImage } from 'react-icons/fa'
 
 const VendorSignup = () => {

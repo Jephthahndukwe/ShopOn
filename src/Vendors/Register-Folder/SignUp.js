@@ -1,6 +1,6 @@
 import React from 'react'
-import Img2 from '../Register-Folder/Ragister-Images/Group.png'
-import Images from '../Register-Folder/Ragister-Images/Dashboard.png'
+import Img2 from '../../Assets/Images/Group.png'
+import Images from '../../Assets/Images/Dashboard.png'
 import { Link } from 'react-router-dom'
 const SignUp = () => {
   return (

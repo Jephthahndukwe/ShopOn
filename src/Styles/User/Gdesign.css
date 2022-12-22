@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.malchair{
+    position: relative;
+    z-index: 2;
+    margin-left: 8%;
+    top: 2.5%;
+}
+.malexp{
+    margin-right: 9%;
+    border-radius: 30px;
+    height: 48px;
+    color: white;
+    font-size: 9px;
+    width: 197px;
+    align-self: center;
+    background-color: #DA3E31;
+    border: none;
+}
+.malmd{
+    height: 141px;
+    background-color: #103D37;
+}
+.maloff{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    z-index: 3;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.maltex{
+    text-align: center;
+    margin-top: 35px;
+}
+.malup{
+    font-size: 1vw;
+    margin-left: 25%;
+    margin-top: 20%;
+}
+.mals60{
+    font-size: 3vw;
+    font-weight: 700;
+    margin-top: -30%;
+    margin-left: 20%;
+}
+.malper{
+    font-size: 0.8vw;
+    margin-left: 3%;
+}
+.malcen{
+    margin-top: -12px;
+}
+.malof{
+    margin-top: -20px;
+}
+.malmrww{
+    color: #CDD454;
+    font-size: 12px;
+}
+.malgdap{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* DAMI's STYING */
+.first-div{
+    background-color: #FFF5EB;
+    padding: 10px;
+    padding-bottom: 0;
+    margin: auto;
+}
+.dam-wrapper{
+    border-bottom: 1px solid  #F4F4F5;
+    margin-left: 20px;
+}
+.first-div li{
+    color: #EF8C5F;
+}
+.dami-list li{
+    display: inline;
+    margin: 10px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5D5F5F;
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    gap: 30px;
+    color: #5D5F5F;
+    font-weight: 500;
+    font-size: 12px;
+    
+}
+.seller{
+    padding-top: 20px;
+}
+.icons{
+    padding-top: 20px;
+}
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    background: #F4F4F5;
+    border-radius: 20px;
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+.container1{
+    background-color: #103D37;
+    width: 1100px;
+    height: 410px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dam-extra{
+    margin-right:98px;
+}
+
+.nav-link{
+    color: #5D5F5F !important;
+}
+
+.dami-space{
+    background: #103D37;
+    height: 400px ;
+}
+small{
+    color: #CDD454;
+}
+.dami-new{
+    font-size: 30px;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #E3E3E3;
+}
+.dami-shop{
+    background: #DE5212 !important;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.dami-wrap{
+    margin-top: 50px !important;
+}
+.chair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 440px;
+    height:  300px;
+}
+.man{
+    background: #E8E8E8;
+}
+.special{
+    margin-top:70px;
+    padding-left: 30px;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.furn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    padding-right: 120px;
+}
+.furni{
+    color: #1D1F1F;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 36px;
+
+}
+.fun{
+    padding-left: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #5D5F5F;
+
+
+}
+.dami-now{
+    color: #DE5212 !important;
+    background: white;
+    border: none;
+    border-radius: 20px; 
+    margin-left: 130px;
+}
+.men{
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.min{
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FFF5EB;
+    
+    
+
+}
+.mans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.myr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #E9672B;
+    width: 160px;
+    height: 54px;
+}
+.after{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: #DA3E31;
+    display: flex;
+}
+.before{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-decoration-line: line-through;
+    color: #E8CFB5;
+}
+.dami-b{
+    color: #DE5212 !important;
+    background: white;
+    border: none;
+    border-radius: 20px; 
+}
