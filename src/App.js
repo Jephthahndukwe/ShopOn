@@ -6,14 +6,9 @@ import SignIn from './Vendors/Register-Folder/SignIn';
 import SignUp from './Vendors/Register-Folder/SignUp';
 import Stateform from './Vendors/Register-Folder/Stateform';
 import VendorSignup from './Vendors/Register-Folder/VendorSignup';
-import Sidenav from './Vendors/dashboard/Sidenav';
 import Bankform from './Vendors/Register-Folder/Bankform';
 import Lastform from './Vendors/Register-Folder/Lastform';
 import InventoryDetails from './Vendors/Inventory/InventoryDetails';
-import ShopElectronics from './Users/LandingPage/ShopElectronics';
-import Landingpage from './Vendors/dashboard/Landing';
-import ProductDetail from './Users/Shop/ProductDetail/ProductDetail';
-import Hot_Sale from './Users/LandingPage/Hot_Sale';
 import Test from './Users/LandingPage/Test';
 
 
@@ -21,36 +16,20 @@ import Test from './Users/LandingPage/Test';
 function App() {
   return (
     <>
-      <Test/>
-      <Router>
       <Router>
         <Routes>          
-          {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
-          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}
-          {/* <Route path='/' element={<SignUp/>} /> */}
-          {/* <Route path='/SignIn' element={<SignIn/>}/> */}
-          {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
-          {/* <Route path='/Stateform' element={<Stateform/>}/>  */}
-          {/* <Route path='/Bankform' element={<Bankform/>}/> */}
-          {/* <Route path='/Lastform' element={<Lastform/>}/> */}
-          {/* <Route path='/' element={<Test/>}/> */}
-          {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
-          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/>          */}
-          {/* <Route path='/' element={<SignUp/>} />  */}
-          {/* <Route path='/SignIn' element={<SignIn/>}/> */}
-          {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
-          {/* <Route path='/Stateform' element={<Stateform/>}/>  */}
-          {/* <Route path='/Bankform' element={<Bankform/>}/> */}
-          {/* <Route path='/Lastform' element={<Lastform/>}/>  */}
-          {/* <Route path='/' element={<Topnav/>}/> */}
-          {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
-          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} />  */}
+          <Route path='/' element={<Test/>}/>
+          <Route path='/Signup' element={<SignUp/>} />
+          <Route path='/SignIn' element={<SignIn/>}/>
+          <Route path='/VendorSignup' element={<VendorSignup/>}/>
+          <Route path='/Stateform' element={<Stateform/>}/> 
+          <Route path='/Bankform' element={<Bankform/>}/>
+          <Route path='/Lastform' element={<Lastform/>}/>
+          <Route path='/Topnav' element={<Topnav/>}/>
+          <Route path="/InventoryNav" element={<InventoryNav/>}/>
+          <Route path='/InventoryAdd' element={<InventoryAdd/>} /> 
+          <Route path='/InventoryDetails' element={<InventoryDetails/>}/>
         </Routes> 
-      </Router>
-        <Routes>
-          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
-          {/* <Route path='/InventoryDetails' element={<InventoryDetails/>}/> */}
-        </Routes>
       </Router>
     </>
   );

@@ -1,12 +1,12 @@
 import React from 'react'
-import img1 from '../Images/istockphoto.png'
-import img2 from '../Images/Ellipse47.png'
-import chair from '../Images/chair.png'
-import laptop from '../Images/laptop.png'
-import food from '../Images/food.png'
-import weather from '../Images/weather.png'
-import special from '../Images/special.png'
-import '../../../Styles/User/Dami.css'
+import img1 from '../../Assets/Images/istockphoto.png'
+import img2 from '../../Assets/Images/Ellipse47.png'
+import chair from '../../Assets/Images/chair.png'
+import laptop from '../../Assets/Images/laptop.png'
+import food from '../../Assets/Images/food.png'
+import weather from '../../Assets/Images/weather.png'
+import special from '../../Assets/Images/special.png'
+import '../../Styles/User/Dami.css'
 
 const SecondSection = () => {
   return (

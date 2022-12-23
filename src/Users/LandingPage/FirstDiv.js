@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../../Styles/User/Dami.css'
+import '../../Styles/User/Dami.css'
 import { FaPlane } from 'react-icons/fa'
 import { AiFillDollarCircle } from 'react-icons/ai'
 import { FaTag } from 'react-icons/fa'

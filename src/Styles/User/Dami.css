@@ -31,7 +31,10 @@
     color: #5D5F5F;
     font-weight: 500;
     font-size: 12px;
-    
+}
+.second .seller a {
+    color: #5D5F5F;
+    text-decoration: none;
 }
 .seller{
     padding-top: 20px;

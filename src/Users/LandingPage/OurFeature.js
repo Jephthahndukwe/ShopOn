@@ -2,24 +2,24 @@ import React from 'react'
 import '../../Styles/User/OurFeature.css'
 import data from '../LandingPage/OurFeature.json'
 import {VscCircleLargeFilled} from 'react-icons/vsc'
-import img1 from '../LandingPage/Images/steph images/Vector.png'
-import img2 from '../LandingPage/Images/steph images/carton.png'
-import img3 from '../LandingPage/Images/steph images/shoppinghandle.png'
-import img4 from '../LandingPage/Images/steph images/shopping.png'
-import img5 from '../LandingPage/Images/steph images/boys.png'
-import img6 from '../LandingPage/Images/steph images/phones.png'
-import img7 from '../LandingPage/Images/steph images/plate.png'
-import img8 from '../LandingPage/Images/steph images/girl.png'
-import img9 from '../LandingPage/Images/steph images/purpleroom.png'
-import img10 from '../LandingPage/Images/steph images/whiteroom.png'
-import img11 from '../LandingPage/Images/steph images/laptopcup.png'
-import img12 from '../LandingPage/Images/steph images/phonesss.png'
-import img13 from '../LandingPage/Images/steph images/background.png'
-import img14 from "../LandingPage/Images/steph images/mark.png"
-import img15 from "../LandingPage/Images/steph images/adidas.png"
-import img16 from "../LandingPage/Images/steph images/fruits.png"
-import img17 from "../LandingPage/Images/steph images/gucci.png"
-import img18 from "../LandingPage/Images/steph images/louisbelt.png"
+import img1 from '../../Assets/Images/Vector.png'
+import img2 from '../../Assets/Images/carton.png'
+import img3 from '../../Assets/Images/shoppinghandle.png'
+import img4 from '../../Assets/Images/shopping.png'
+import img5 from '../../Assets/Images/boys.png'
+import img6 from '../../Assets/Images/phones.png'
+import img7 from '../../Assets/Images/plate.png'
+import img8 from '../../Assets/Images/girl.png'
+import img9 from '../../Assets/Images/purpleroom.png'
+import img10 from '../../Assets/Images/whiteroom.png'
+import img11 from '../../Assets/Images/laptopcup.png'
+import img12 from '../../Assets/Images/phonesss.png'
+import img13 from '../../Assets/Images/background.png'
+import img14 from "../../Assets/Images/mark.png"
+import img15 from "../../Assets/Images/adidas.png"
+import img16 from "../../Assets/Images/fruits.png"
+import img17 from "../../Assets/Images/gucci.png"
+import img18 from "../../Assets/Images/louisbelt.png"
 
 
 const OurFeature = () => {

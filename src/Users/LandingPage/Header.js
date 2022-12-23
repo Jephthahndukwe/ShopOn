@@ -1,6 +1,7 @@
 import React from 'react'
-import img from '../Images/SHOPON.png'
-import '../../../Styles/User/Dami.css'
+import { Link } from 'react-router-dom'
+import img from '../../Assets/Images/SHOPON.png'
+import '../../Styles/User/Dami.css'
 import {GrFavorite} from 'react-icons/gr'
 import {BsCart2} from 'react-icons/bs'
 import {BsPerson} from 'react-icons/bs'
@@ -14,7 +15,7 @@ const Header = () => {
            <div className='create'>
              <a href='/'> <img src={img}/> </a>
              <div className='second'>
-                      <p className='seller'>create a seller account</p>
+                      <p className='seller'><Link to='/Signup'>create a seller account</Link></p>
                         <form>
                             <input type="search" className="search" placeholder='   search...'></input>
                         </form>

@@ -1,10 +1,10 @@
 import React from 'react'
 import '../../Styles/User/Footer.css'
-import SHOPON from './Image/SHOPON.png'
-import Rectangle49 from './Image/Rectangle 49.png'
-import facebooklogo from './Image/facebooklogo.png'
-import Google from './Image/Google.png'
-import cameralogo from './Image/cameralogo.png'
+import SHOPON from '../../Assets/Images/SHOPON.png'
+import Rectangle49 from '../../Assets/Images/Rectangle 49.png'
+import facebooklogo from '../../Assets/Images/facebooklogo.png'
+import Google from '../../Assets/Images/Googles.png'
+import cameralogo from '../../Assets/Images/cameralogo.png'
 
 const Footer = () => {
   return (
