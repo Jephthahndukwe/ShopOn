@@ -6,11 +6,13 @@ import NewArrival from './NewArrival'
 import ShopElectronics from './ShopElectronics'
 import OurFeature from './OurFeature'
 import TopCategories from '../LandingPage/TopCategories'
+import FirstSection from './FirstSection/FirstSection'
 
 const Test = () => {
   return (
     <>
-       <Hot_Sale/>
+        {/* <FirstSection/> */}
+        <Hot_Sale/>
         <GreatDesign/>
         <ShopElectronics/>
         <NewArrival/>

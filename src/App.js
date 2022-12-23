@@ -21,21 +21,35 @@ import Test from './Users/LandingPage/Test';
 function App() {
   return (
     <>
+      <Test/>
+      <Router>
       <Router>
         <Routes>          
-          <Route path='/' element={<Test/>}/>
           {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
-          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}          
+          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/> */}
           {/* <Route path='/' element={<SignUp/>} /> */}
           {/* <Route path='/SignIn' element={<SignIn/>}/> */}
           {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
-          {/* <Route path='/Stateform' element={<Stateform/>}/> */}
+          {/* <Route path='/Stateform' element={<Stateform/>}/>  */}
           {/* <Route path='/Bankform' element={<Bankform/>}/> */}
           {/* <Route path='/Lastform' element={<Lastform/>}/> */}
-          <Route path='/' element={<Topnav/>}/>
-          <Route path="/InventoryNav" element={<InventoryNav/>}/>
-          <Route path='/InventoryAdd' element={<InventoryAdd/>} />
-          <Route path='/InventoryDetails' element={<InventoryDetails/>}/>
+          {/* <Route path='/' element={<Test/>}/> */}
+          {/* <Route path='/ShopElectronics' element={<ShopElectronics/>}/> */}
+          {/* <Route path='/ProductDetail' element={<ProductDetail/>}/>          */}
+          {/* <Route path='/' element={<SignUp/>} />  */}
+          {/* <Route path='/SignIn' element={<SignIn/>}/> */}
+          {/* <Route path='/VendorSignup' element={<VendorSignup/>}/> */}
+          {/* <Route path='/Stateform' element={<Stateform/>}/>  */}
+          {/* <Route path='/Bankform' element={<Bankform/>}/> */}
+          {/* <Route path='/Lastform' element={<Lastform/>}/>  */}
+          {/* <Route path='/' element={<Topnav/>}/> */}
+          {/* <Route path="/InventoryNav" element={<InventoryNav/>}/> */}
+          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} />  */}
+        </Routes> 
+      </Router>
+        <Routes>
+          {/* <Route path='/InventoryAdd' element={<InventoryAdd/>} /> */}
+          {/* <Route path='/InventoryDetails' element={<InventoryDetails/>}/> */}
         </Routes>
       </Router>
     </>
