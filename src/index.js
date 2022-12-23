@@ -3,15 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import "./Users/LandingPage/Styling/Bootstrap/css/bootstrap.css"
-import FirstSection from './Users/LandingPage/FirstSection/FirstSection';
-import "../src/Styles/Bootstrap/bootstrap.css"
-// import "./Assets/Styles/Bootstrap/bootstrap.css"
+import '../src/Styles/User/css/bootstrap.css'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <FirstSection/>
+    <App />
   </React.StrictMode>
 );
 

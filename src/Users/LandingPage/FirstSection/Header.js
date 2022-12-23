@@ -1,6 +1,6 @@
 import React from 'react'
 import img from '../Images/SHOPON.png'
-import "../Styling/Gdesign.css"
+import '../../../Styles/User/Dami.css'
 import {GrFavorite} from 'react-icons/gr'
 import {BsCart2} from 'react-icons/bs'
 import {BsPerson} from 'react-icons/bs'

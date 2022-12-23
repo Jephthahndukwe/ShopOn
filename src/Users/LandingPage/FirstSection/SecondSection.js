@@ -6,9 +6,7 @@ import laptop from '../Images/laptop.png'
 import food from '../Images/food.png'
 import weather from '../Images/weather.png'
 import special from '../Images/special.png'
-
-
-import "../Styling/Gdesign.css"
+import '../../../Styles/User/Dami.css'
 
 const SecondSection = () => {
   return (
